@@ -1,0 +1,3454 @@
+python3 counter.py 
+python counter.py 
+pipenv install prometheus_client
+pip install
+pip install prometheus_client
+code .
+black counter.py 
+ls
+sudo kill 27093
+sudo lsof -t -i:8000
+ps aux | grep 8000
+cd ~/code/python-playground/prometheus/
+python3
+chain
+/usr/bin/python3.9 /home/luiz.cezer/code/python-playground/prometheus/counter.py
+code .
+cd prometheus/
+mkdir prometheus
+cd ~/code/python-playground/
+wmctrl -r "Spotify Premium" -b toggle,fullscreen
+history | grep "Spotify"
+git pull origin RC-COINX-8727-ticker-mapping
+git log
+./run_unit_tests.sh
+doff;
+git checkout RC-COINX-8727-ticker-mapping
+git branch 
+iex
+doff
+dcup currency-service
+docker-compose run currency-service migrate-db
+docker-compose run currency-service bootstrap
+cat README.md
+grep currency database
+grep currency README.md 
+grep migration README.md 
+cat README.md | grep migration
+gpull
+cd ~/code/currency-service/
+docker-compose up public-api
+aws-login
+gsts-login
+cat ~/.config/fish/config.fish
+docker-compose up public-api-service
+cd ~/code/public-api/
+git push origin develop
+git commit --amend 
+git commit -m "Deploy 8727 to chain UAT"
+git add .
+git pull origin develop
+git commit -m "Deploy dc1a16e to chain UAT"
+git s
+ghash
+cd ~/code/k8s-resources/
+git l
+cd -
+cd ..
+rm code_1.60.2-1632313585_amd64.deb 
+sudo dpkg -i code_1.60.2-1632313585_amd64.deb
+cd ~/Downloads/
+git commit -m "Deploy 92e48b3 to chain UAT"
+git reset --hard 92e48b3b7abdee46bcbbfeba3e6e26c78f348140
+git commit -m "Deploy 0922f05 to chain UAT"
+git reset --hard 0922f05cba79f01c591d57b9fe1cf64e6160533c
+./node_exporter 
+cd ../node_exporter/
+./prometheus 
+cd ~/code/prometheus/
+./kbtools-docker - --verbose kanban-metrics 2021-09-01 2021-09-24
+git diff
+cd ~/code/kbtools/
+gsm
+code prometheus.yml 
+git pull origin RC-COINX-8400-sweep-handler
+git checkout .
+git commit -m "Deploy 2483106 to chain UAT"
+git push origin RC-COINX-8400-sweep-handler
+git commit -am "Set sweep to run every 2 mins"
+git commit -m "Deploy c3202e7 to chain UAT"
+dcr chain-service sweep_processor
+git commit -m "Fix merge conflits with unit tests"
+git merge --abort
+git commit -m "Black format :lipstick:"
+black mount/app/usecases/sweeps.py mount/tests/usecases/test_sweeps.py 
+git commit -m "Remove unused fixtures/variables on usecases/test_sweeps"
+git commit -m "Fix merge conflits + join usecase sweeps + unit tests"
+docker-compose run chain-service seed-db-up
+docker-compose run chain-service migrate-up
+gmm
+git rebase --abort
+grm
+git checkout RC-COINX-8400-sweep-handler
+black mount/app/usecases/sweeps.py
+git pull
+docker exec -it c702e255e0c6 psql -U postgres
+docker exec -it c702e255e0c6 psql -U postgresql
+docker exec -it (docker ps -aqf "name=postgresql") bash
+dcup chain-service
+dcup kafka schema-registry
+git checkout RC-COINX-8750-sweep-transaction-db-add-ticker
+git commit -m "Deploy eb1c282 to chain UAT"
+git reset --hard eb1c2820e8b744f27baf2e3ba7a7b86b9a04a357
+git reset
+git reset --abort
+git reset --soft fc9480d
+git reset --hard fc9480d7faedaeec6942772fab4b22ad1af9bd76
+git commit -m "Deploy fc9480d to chain UAT"
+git commit -m "Deploy c34b825 to chain UAT"
+git reset --hard c34b825
+git commit -m "Deploy 5088689 to chain UAT"
+git reset c34b825
+git commit -m "Deploy 40bd1d1 to chain UAT"
+cd ~/code/k
+git reset --hard
+git stash --abort
+git stash apply 0
+git stash list
+git commit -am "Rename gas to gas_station_configuration"
+git commit -m "Rename gas to gas_station_configuration"
+git commit -m "Set VaultAccount.autoFuel FALSE by default"
+git stash
+vvpytest mount/tests/usecases/test_sweeps.py
+git commit -m "Add unit tests to GET get_vault_accounts request"
+git add mount/tests/adapters/test_fireblocks_client.py mount/app/adapters/fireblocks.py
+git add 
+docker-compose run --rm --no-deps -e APP_ENV=unittest -e POSTGRES_DB_NAME=chain_dev_test chain-service tests adapters/test_fireblocks_client.py
+docker-compose run --rm --no-deps -e APP_ENV=unittest -e POSTGRES_DB_NAME=chain_dev_test chain-service tests tests/adapters/test_fireblocks_client.py
+docker-compose run --rm --no-deps -e APP_ENV=unittest -e POSTGRES_DB_NAME=chain_dev_test chain-service tests mount/tests/adapters/test_fireblocks_client.py
+docker-compose run --rm --no-deps -e APP_ENV=unittest -e POSTGRES_DB_NAME=chain_dev_test chain-service mount/tests/adapters/test_fireblocks_client.py
+docker-compose run --rm --no-deps -e APP_ENV=unittest -e POSTGRES_DB_NAME=chain_dev_test chain-service tests/adapters/test_fireblocks_client.py
+vvpytest tests/adapters/test_fireblocks_client.py
+cd mount/
+git commit -am "Adding unit tests to GET get_vault_account_by_id request"
+vvpytest mount/tests/adapters/test_fireblocks_client.py
+git branch -D RC-COINX-8400-ERC20-sweep RC-COINX-8400-refactor-sweep-logic
+sudo nano prometheus.yml 
+cd node_exporter/
+mv node_exporter-1.2.2.linux-amd64/ node_exporter
+tar -xvf node_exporter-1.2.2.linux-amd64.tar.gz 
+mv ~/Downloads/node_exporter-1.2.2.linux-amd64.tar.gz ~/code/
+mv prometheus-2.30.0.linux-amd64/ prometheus
+tar -xvf prometheus-2.30.0.linux-amd64.tar.gz 
+cd ~/code
+cp prometheus-2.30.0.linux-amd64.tar.gz ~/code/
+chain 
+git commit -m "Deploy 43839dd to chain UAT"
+git push origin RC-COINX-8400
+git commit -m "Use hardcoded gas_threshold eq 0.005"
+git commit -m "Deploy 49712b1 to chain UAT"
+git commit -am "Keep asset_id as param and fix call to is_erc20()"
+git commit -m "Set eth hardcoded as ticket to get new vault balance"
+git checkout RC-COINX-8400
+git commit -m "Deploy 28e0d19 to chain UAT"
+git commit -m "Deploy f3c21b0 to chain UAT"
+git reset --hard 9d1bfd2d90a4e5c98ed6cd6ee59051018aa4ef61
+git commit -am "Get new ETH balance only if exist eth asset"
+git commit -am "Remove GasStationInfo"
+git revert 36195b613176ca09f874d27149ffed8bf1a676b8
+git commit -am "Use eth.asset to get the new vault_balance"
+git commit -m "Deploy 36195b6 to chain UAT"
+git commit -am "Add join and where cond to get_intermediate_address_by_vault_id"
+git commit -m "Remove unused GasStationInfo from VaultAccount and clean up tests"
+git add mount/tests/domain/fireblocks/test_vault_account.py mount/tests/domain/fireblocks/test_vault_asset.py mount/app/domain/fireblocks/vault_account.py
+git commit -m "Remove fireblocks unused endpoint and fix ticket param"
+git add mount/app/adapters/fireblocks.py mount/tests/adapters/test_fireblocks_client.py
+git diff mount/app/adapters/fireblocks.py mount/tests/adapters/test_fireblocks_client.py
+docker-compose up kafka schema-registry
+git commit -m "Deploy ddb16ca to chain UAT"
+git commit -am "Improve logs"
+git commit -m "Improve logs"
+git commit -m "Remove call to refuel gas station + use the new eth vault asset with new balance"
+git checkout mount/app/commons/settings.py
+git diff mount/app/commons/settings.py
+cd ~/code/agera/
+git checkout -b RC-COINX-8400-gas-station-wallet
+git checkout RC-COINX-8400-gas-station-wallet
+git commit -m "Black :lipstick:"
+black mount/app/domain/fireblocks/vault_account.py mount/app/usecases/sweeps.py mount/tests/domain/fireblocks/test_vault_asset.py
+git commit -m "Apply is_eth/is_erc20 to usecases/sweep.py"
+git commit -m "Add methods is_erc20/is_eth for VaultAsset"
+git add mount/app/domain/fireblocks/vault_account.py mount/tests/domain/fireblocks/test_vault_asset.py
+vvpytest mount/tests/domain/fireblocks/test_vault_asset.py
+git commit -m "Deploy 93e3923 to chain UAT"
+git pull origin develop 
+git commit -m "Address merge changes and fix conflicts"
+black mount/app/adapters/fireblocks.py mount/app/commons/dispatcher.py mount/app/domain/fireblocks/fireblocks_sweep.py mount/app/domain/fireblocks/vault_account.py
+black mount/tests/domain/fireblocks/test_vault_asset.py mount/tests/domain/fireblocks/test_vault_account.py mount/tests/adapters/test_fireblocks_client.py
+git checkout -
+git rebase --continue
+git commit -m "Fix conflicts mount/app/adapters/fireblocks.py"
+git commit -m "Fix conflicts test/adapters/test_fireblocks_client.py"
+git commit -m "Fix conflicts domain/fireblocks/vault_account.py"
+git commit -m "Fix conflicts domain/fireblocks/fireblocks_sweep.py"
+git commit -m "Fix conflicts adapters/fireblocks.py"
+git rebase  --abort
+git rebase  --continue
+git commit -m "Fix conflicts"
+git rebase  --abort 
+git rebase --continue 
+git branch  -D RC-COINX-7274-fix-retrying-txns-forever RC-COINX-8393-clean-up-ticker-check RC-COINX-8400-sweep-tiny-pieces 
+git push origin RC-COINX-8400-sweep-tiny-pieces
+git commit -am "Black format :lipstick:"
+black mount/tests/adapters/test_fireblocks_client.py mount/app/adapters/fireblocks.py
+git commit -m "Add unit test to GET get_gas_station_configuration request"
+git commit -m "Add unit test to POST set_auto_fuel request" 
+black mount/app/adapters/fireblocks.py
+git commit
+git checkout -b RC-COINX-8400-sweep-tiny-pieces
+git pull origin RC-COINX-8400
+git commit -m "Deploy b3875c3 to chain UAT"
+git commit -am "Handle case where get_gas_station_wallet_eth_address could return no assets for a wallet"
+python
+git reset --hard dc6032021fd12fd42ff0bf5d9f5426f53b938c2c
+git stash apply stash@{0}
+git push origin RC-COINX-8400 --force
+git commit -m "Add tests to vault_account"
+black mount/tests/domain/fireblocks/
+vvpytest mount/tests/domain/fireblocks/
+vvpytest mount/tests/domain/fireblocks/test_vault_account.py
+git add mount/tests/domain/fireblocks/test_vault_asset.py
+/usr/bin/python3.9
+git commit -m "Add tests to vault_asset"
+black mount/tests/domain/fireblocks/test_vault_asset.py
+git commit -m "Deploy ad5cf18 to chain UAT"
+atom .
+git commit -m "Convert VaultAsset ticker"
+black mount/app/domain/fireblocks/vault_account.py
+git mount/app/domain/fireblocks/vault_account.py
+git rebase -i HEAD~2
+git commit -m "OK"
+git commit -am "Set available to VaultAsset when return get_vault_balance"
+git reset --hard 295eda7
+git b ra
+gpush RC-COINX-8400-ERC20-sweep
+git commit -am "Fix merge and tests"
+git push origin RC-COINX-8400-ERC20-sweep --force
+git checkout RC-COINX-8400-ERC20-sweep
+vvpytest mount/tests/adapters/test_ticker_conversion.py
+git commit -am "Remove guard classe for empty vault.asset and exception handle in need_sweep method"
+git log -p
+git commit -m "Deploy 295eda7 to chain UAT"
+git commit -m "Remove tuple for logs cause it does not appear on Kibana"
+git commit -m "Deploy cee93ac to chain UAT"
+black
+black mount/app/domain/fireblocks/vault_account.py mount/app/usecases/sweeps.py
+git commit -m "Handle exception for decimal.InvalidOperation"
+git commit -m "Adding try/exception to catch NaN for asset.available"
+git commit -m "Improve logs on usecase/sweeps + improve vault_account domain"
+git add mount/app/domain/fireblocks/vault_account.py
+black mount/app/adapters/fireblocks.py mount/app/usecases/sweeps.py
+git commit -m "Adding more logs to sweeps usecase"
+sudo dpkg -i zoom_amd64.deb
+rm zoom_x86_64.rpm
+git commit -am "Add loggers to check assets and gas_threshold + next if no assets to loop"
+git commit -m "Try fix asset.available calculation + Remove lambad and loop through list"
+git commit -m "ok"
+git commit -m "Try to fix problem with Decimal calculation on sweep processor"
+git switch -
+git commit -m "Skipped some tests to try running sweep in sandbox"
+black mount/tests/usecases/test_sweeps.py
+git commit -m "Deploy 2885c43 to chain UAT"
+git push origin RC-COINX-8400-refactor-sweep-logic
+git cm -m "Add exception to get timeout calls and avoid worker to crash :bomb:"
+gti s
+docker-compose up --build chain-service
+docker-compose build chain-service
+docker-compose --build chain-service
+git pull origin RC-COINX-8400-refactor-sweep-logic
+git commit -m "Deploy 44bbbc0 to chain UAT"
+black  mount/app/adapters/fireblocks.py mount/app/domain/fireblocks/fireblocks_sweep.py
+git commit -m "Remove maxGasPrice"
+git commit -am "Fix typo gas_threshold and make max_gas_price"
+git diff 
+history | grep "run"
+history | grep "retry"
+black mount/tests/usecases/test_sweeps.py mount/app/workers/sweep.py mount/app/usecases/sweeps.py
+git commit -am "Add FIREBLOCKS_GAS_STATION_WALLET_ID to chain_service"
+git checkout -b RC-COINX-8400-refactor-sweep-logic
+git checkout RC-COINX-8400-refactor-sweep-logic
+black mount/app/adapters/fireblocks.py mount/app/domain/fireblocks/fireblocks_sweep.py mount/app/usecases/sweeps.py
+git commit -m "Rename gasThreshold, gasCap and maxGasPrice to snake_case"
+git commit -m "Split methods to get eth/non_eth assets and refuel the gas station"
+git branch -D RC-COINX-8400-refactor-sweep-logic
+git reset 
+git commit -am "WIP: attempt to clean up eth/non_eth into separated helper methods"
+git commit -m "WIP: trying to split eth_assets/non_eth_assets into two different blocks"
+git checkout
+git commit -m "Rename method name"
+git add mount/app/adapters/fireblocks.py
+git diff mount/app/adapters/fireblocks.py
+git commit -m "Return address as empty as default"
+git add -p mount/app/adapters/fireblocks.py
+git commit -m "Return address value for gas_station"
+black mount/app/domain/fireblocks/fireblocks_sweep.py
+git stash pop
+git commit -m "Add GasStationInfo & GasStationConfiguration objects"
+balance 
+black mount/app/workers/sweep.py
+cashier 
+ping 10.20.0.1
+ping google.ca
+su csit2 
+git commit -m "Deploy 0ec760b to chain UAT"
+git push origin develop 
+git commit -m "Deploy 0c50420 to chain UAT"
+su csit2
+sudo apt install icedtea-netx icedtea-plugin -y
+sudo dpkg -i forticlient_vpn_7.0.0.0018_amd64.deb
+sudo apt-get remove forticlient
+service jcagent status
+hostname
+code 
+git commit -m "Deploy 63ec639 to chain UAT"
+git commit -m "Deploy a068821 to chain UAT"
+git commit -m "Deploy 2de3628 to chain UAT"
+sudo docker cp /home/luiz.cezer/Downloads/ledger.csv 80e0caf3a6d9:/ledger.csv
+sudo docker cp /home/luiz.cezer/Downloads/ledger-one-line.csv 80e0caf3a6d9:/ledger-one-line.csv
+sudo docker cp /home/luiz.cezer/Downloads/balance.csv 80e0caf3a6d9:/balance.csv
+sudo docker cp ~/Dowloads/balance.csv 80e0caf3a6d9:/balance.csv
+sudo docker cp ~/Downloads/balance_service_production_ledger_copy.csv 80e0caf3a6d9:/balance_service_production_ledger_copy.csv
+sudo docker cp ~/Downloads/balance_service_production_balance_copy.csv 80e0caf3a6d9:/balance_service_production_balance_copy.csv
+sudo docker cp ~/Downloads/balance_service_production_balance_a328444e-482e-44c3-87ce-69f7fa953a31.csv 80e0caf3a6d9:/balance_service_production_balance.csv
+docker exec -it (docker ps -aqf "name=cassandra") bash
+sudo docker cp ~/Downloads/balance_service_production_balance_a328444e-482e-44c3-87ce-69f7fa953a31.csv 80e0caf3a6d9:/balance_service_production_balance_a328444e-482e-44c3-87ce-69f7fa953a31.csv
+docker exec -it (docker ps -aqf "name=cassandra") cqlsh -u cassandra -p cassandra COPY balances(account_id, record_id, amounts_available, amounts_pending_deposit, app_org, app_region, processed_timestamp) TO '/home/luiz.cezer/Downloads/balance_service_production_balance_a328444e-482e-44c3-87ce-69f7fa953a31.csv' WITH HEADER = TRUE;
+docker exec -it (docker ps -aqf "name=cassandra") cqlsh -u cassandra -p cassandra
+docker exec -it (docker ps -aqf "name=cassandra") cqlsh -u cassandra -p cassandra COPY Data(account_id, record_id, amounts_available, amounts_pending_deposit, app_org, app_region, processed_timestamp) TO '/home/luiz.cezer/Downloads/balance_service_production_balance_a328444e-482e-44c3-87ce-69f7fa953a31.csv' WITH HEADER = TRUE;
+docker exec -it (docker ps -aqf "name=cassandra") cqlsh -u cassandra -p cassandra COPY data(account_id, record_id, amounts_available, amounts_pending_deposit, app_org, app_region, processed_timestamp) TO '/home/luiz.cezer/Downloads/balance_service_production_balance_a328444e-482e-44c3-87ce-69f7fa953a31.csv' WITH HEADER = TRUE;
+pwd
+cd Downloads/
+cat Dockerfile 
+dcup balance-service
+balance
+git branch -D RC-COINX-7944-add-pr-template RC-COINX-8308-refactor-protocols
+sleep 15; dcup cashier-service
+gpull; git checkout RC-COINX-8643-validate-network-currency
+cashier
+git commit -m "Add unit tests to CoSignerConfigurationResponse"
+vvpytest tests/adapters/http/test_sign_configuration.py
+git commit -am "Add unit test to cover return as action:ignore"
+black mount/tests/adapters/http/test_sign_configuration.py mount/app/adapters/http/fireblocks_callbacks/sign_configuration.py
+docker exec -it (docker ps -aqf "name=postgres") psql -U postgres
+cat ~/.config/fish/config.fish | grep ghash
+git push origin RC-COINX-8166-drop-payment-provider-integration-feature-branch --force
+pwde
+git checkout RC-COINX-8166-drop-payment-provider-integration-feature-branch
+./kbtools-docker - --verbose kanban-metrics 2021-08-02 2021-08-13
+./kbtools-docker --help
+./kbtools-docker build
+docker build
+./kbtools-docker
+kbtools-docker
+code. 
+git pull origin main
+cd kbtools/
+git clone git@github.com:daniloqueiroz/kbtools.git
+cd ~/code/
+git commit -am "Use get_csx_ticker on external_notification logic"
+git commit -m "Use get_csx_ticker on external_notification logic"
+git commit -m "Add mapping ticker->asset_id"
+git add mount/app/adapters/ticker_conversion.py mount/tests/adapters/test_ticker_conversion.py
+git diff mount/app/adapters/ticker_conversion.py mount/tests/adapters/test_ticker_conversion.py
+vvpytest tests/usecases/test_withdrawals.py
+vvpytest tests/usecases/test_deposits.py
+vvpytest tests/usecases/test_deposits.py::test_handle_deposit_event_status_completed
+vvpytest tests/domain/test_external_notification.py
+vvpytest tests/adapters/test_ticker_conversion.py
+black mount/app/adapters/ticker_conversion.py mount/tests/adapters/test_ticker_conversion.py
+black mount/tests/adapters/test_ticker_conversion.py
+gcm
+gm
+source ~/.config/fish/config.fish 
+sudo nano ~/.config/fish/config.fish
+gadd 
+sudo nano ~/.gitconfig
+git commit 
+black mount/app/adapters/ticker_conversion.py
+git commit -am "Remove unused exceptions"
+gpul
+git push origin RC-COINX-8567-clean-up-tests
+git commit -am "Improve tests for retry flow"
+black mount/tests/usecases/e_transfer_request_money/test_retry.py mount/app/usecases/e_transfer_request_money/retry.py
+./run_local.sh tests
+./run_local.sh tests -o usecases/e_transfer_request_money/test_retry.py
+git switch -c RC-COINX-8567-clean-up-tests
+git branch -D RC-COINX-8516-improve-worker RC-COINX-8515-gateway-retry RC-COINX-8515-etrmd-gateway RC-COINX-8514-roll-forward RC-COINX-8512-clean-up-tests RC-COINX-8399-fix-erc20-address-generation
+git checkout -b RC-COINX-8512-clean-up-tests
+exiit
+set-python-3.7
+sudo su
+sudo
+docker-compose run chain-service db-bootstrap
+docker-compose up chain-service
+sudo dpkg -i code_1.59.0-1628120042_amd64.deb
+git commit -m "Deploy e1adda23 to cashier UAT"
+./run_local.sh tests -o domain/e_transfer_request_money/test_gateway.py
+git pull origin RC-COINX-8515-gateway-retry
+git commit -m "Deploy 5e08b712 to cashier UAT"
+git checkout RC-COINX-8515-gateway-retry
+gpull; git checkout RC-COINX-8515-gateway-retry
+git commit -m "Deploy 73cf3f2b to cashier UAT"
+git commit -m "Deploy 5d6ef0be to cashier UAT"
+git pull origin RC-COINX-8516-improve-worker
+git push origin RC-COINX-8516-improve-worker --force
+git commit -m "Set ctx as argument to retry usecase and fix gateway.process call"
+git push origin RC-COINX-8516-improve-worker
+git commit -am "Send whole TXN to gateway.process"
+git checkout RC-COINX-8516-improve-worker
+dcup cashier-service
+gpull; git checkout RC-COINX-8399-fix-erc20-address-generation
+docker-compose exec accounts-service /scripts/start.sh seed-db-up
+docker-compose run accounts-service bootstrap
+git pull origin RC-COINX-8330-transfer-config
+git checkout RC-COINX-8330-transfer-config
+cd ~/code/accounts-service/
+dcr cashier-service retry_payment_provider_processor
+git commit -am "Move initialization to repo and gateway outside the loop"
+git commit -am "Fix retry_repo typo name"
+git commit -am "Fix check the pending size"
+git commit -m "Fix check the pending size"
+git commit -am "Fixing tests with new query that returns all data in a single call"
+./run_local.sh shell
+./run_local.sh sheel
+sleep 45; ./run_local.sh tests
+./run_local.sh migrate-up
+./run_local.sh db-bootstrap
+git pull origin RC-COINX-8515-etrmd-gateway
+./run_local.sh db-bootstrap down
+git checkout RC-COINX-8515-etrmd-gateway
+git branch -D RC-COINX-8515-etrmd-gateway
+git commit -m "Deploy 5779594 to currency UAT"
+dcup postgres
+git commit -am "Clean up test file"
+git commit -m "Adding logs and early return if has not retries records to the flow"
+git pull origin RC-COINX-8514-cash-retry
+git commit -am "Add logs"
+git commit -m "Add test case when transaction is already approved"
+git commit -m "Add test case when transaction is already rejected"
+./run_local.sh tests -o usecases/e_transfer_request_money/test_retry.py::test_retry_with_pending_records_and_transaction_is_rejected
+git commit -m "Add test case when retry is expired"
+git commit -m "Add test case when there is nothing to retry"
+git commit -m "Retry usecase happy path :smile:"
+git commit -m "WIP: add retry usecase"
+./run_local.sh tests -o domain/e_transfer_request_money/test_retry.py
+git checkout RC-COINX-8514-cash-retry
+vvpytest tests/usecases/e_transfer_request_money/test_retry.py
+git rebase RC-COINX-8514-roll-forward
+git pull origin RC-COINX-8514-roll-forward
+git checkout RC-COINX-8514-roll-forward
+git checkout -b RC-COINX-8516-improve-worker
+git branch -D RC-COINX-8516-improve-worker
+git reset --hard HEAD~1
+black mount/tests/usecases/e_transfer_request_money/test_retry.py
+git switch -c RC-COINX-8516-improve-worker
+git branch -D RC-COINX-8086-update-dependencies-zum-fix RC-COINX-8399-erc20-address-generation RC-COINX-8513-stub-worker RC-COINX-8520-transactions-filter-multiple-payment-type
+git push origin RC-COINX-8513-stub-worker --force
+git commit -am "Remove PAYMENT_PROVIDER_DEPOSIT_RETRY_SLEEP_SECONDS from env" 
+git push origin RC-COINX-8513-fix-retry-value
+git commit -am "Change PAYMENT_PROVIDER_DEPOSIT_RETRY_SLEEP_SECONDS to 60"
+git checkout -b RC-COINX-8513-fix-retry-value
+git commit -m "Add retry-payment-provider-processor to cashier UAT"
+git checkout develop
+git push origin RC-COINX-8513-stub-worker-part-II --force
+git rebase develop
+git checkout RC-COINX-8513-stub-worker-part-II
+git commit -m "Remove cashier-service-retry-payment-provider-processor from kustomization.yaml"
+git push origin RC-COINX-8513-stub-worker-part-II
+git commit -m "Add network policy for retry payment provider"
+git checkout -b RC-COINX-8513-stub-worker-part-II
+git commit -m "Fix env variable value"
+diff
+git commit -m "Deploy gitsha 4592e53b to cashier on UAT"
+gs
+git revert 70f0ee8c1706223a1211b9375b48f68fc63bc376
+git reset --hard 6e047f74ceaf8b0b49b1579f89b8a66f53296b3c
+git checkout RC-COINX-8513-stub-worker
+sleep 15; docker-compose up cashier-service
+gpull; git checkout RC-COINX-8520-transactions-filter-multiple-payment-type
+docker-compose up postgres
+git push origin RC-COINX-8398-add-seeds-for-network-column --force
+git commit -m "Deploy gitsha 19c115d to currency on UAT"
+git checkout RC-COINX-8398-add-seeds-for-network-column
+git checkout 
+git push origin RC-COINX-8513
+git commit -m "Add worker retry-payment-provider-processor"
+git switch -c RC-COINX-8513
+git switch develop
+git switch devops-cluster/
+git push origin RC-COINX-8513-stub-worker
+git commit -m "Cast retry setting for payment provider to int"
+dcr cashier-service start_payment_provider_processor
+git commit -m "Add payment provider retry delay seconds"
+git commit -m "Add delay seconds as a settings variable"
+git commit -m "Delete test file"
+git add mount/tests/commons/test_loop_dispatcher.py
+black mount/app/workers/retry_payment_provider.py
+git commit -m "Add loop_dispatcher and run worker"
+docker exec it (docker ps -aqf "name=postgres") psql -U postgres
+docker exec -it (docker ps -aqf "name=postgres") -U psql
+history | grep "docker ps"
+dcup accounts-service
+dcup account-service
+git commit -m "Create loop_context"
+git add mount/app/commons/loop_context.py
+source ~/.config/fish/config.fish
+docker-compose up cashier-service
+./run_local.sh tests -o commons/test_loop_dispatcher.py
+;
+vvpytest tests/commons/test_loop_dispatcher.py
+git stash clear
+git checkout -b RC-COINX-8513-stub-worker
+git branch -D RC-COINX-8513-stub-worker
+docker-compose run currency-service seed-db-up
+docker-compose up currency-service
+docker ps -aq
+git checkout RC-COINX-8399-erc20-address-generation
+git commit -m "WIP stub worker"
+git reset --hard a49db02c1623cc595c11468fab0caf26763d43cf
+git push origin RC-COINX-8398-add-seeds-for-network-column
+git commit -m "Add network blockchain for coins that follow that network"
+docker-compose run currency-service seed-db-down
+docker exec -it 42088704798b psql -U postgres
+git commit -m "Deploy gitsha a49db02 to currency on UAT"
+git commit -m "Add ETH/ETC as erc-20 network too"
+cat ~/.docker/config.json
+cat ~/.aws/config
+gsts --aws-role-arn arn:aws:iam::623494789560:role/dev --sp-id 564316313336 --idp-id C033tguln --username luiz.cezer@coinsqure.com --aws-profile default
+docker login --username lccezinha
+docker logout 623494789560.dkr.ecr.us-east-1.amazonaws.com
+Pulling cashier-service (623494789560.dkr.ecr.us-east-1.amazonaws.com/cashier-service:stable)...
+⟩ docker-compose up cashier-service
+~/code/cashier-service · (RC-COINX-8086-update-dependencies-zum-fix)
+✔ Login successful!
+⟩ docker-login
+Login Succeeded
+Password: 
+⟩ docker login --username lccezinha
+Removing login credentials for 623494789560.dkr.ecr.us-east-1.amazonaws.com
+⟩ docker logout 623494789560.dkr.ecr.us-east-1.amazonaws.com
+docker-login
+history | grep "logout"
+docker rmi -f 2db7c36d11f7
+docker images | grep cashier
+git commit -am "Fix network value"
+./run_local.sh build
+git pull origin RC-COINX-8086-update-dependencies-zum-fix
+git checkout RC-COINX-8086-update-dependencies-zum-fix
+git branch -D RC-COINX-8086-update-dependencies RC-COINX-8086-update-dependencies-zum-fix RC-COINX-8270-publish-fiat-data RC-COINX-8166-drop-payment-provider-integration-feature-branch RC-COINX-8456-fix-etransfer-status-change
+git commit -m "Update seeds for network files names"
+docker exec -it 6ee2b58a1bee psql -U postgres
+docker exec -it ba55dd800591 psql -U postgres
+git commit -m "Add seeds up/down to populate network column"
+docker exec -it 2e6d6316e5de psql -U postgres
+git switch -c RC-COINX-8398-add-seeds-for-network-column
+git branch -D RC-COINX-8394-add-network-to-currency-table RC-COINX-8169
+cd currency-service/
+cd currency-
+exity
+git commit -m "Deploy gitsha b139f32 to currency on UAT"
+git push origin RC-COINX-8394-add-network-to-currency-table --force
+git checkout RC-COINX-8394-add-network-to-currency-table
+git pull origin RC-COINX-8169
+git checkout RC-COINX-8169
+git commit -m "Deploy gitsha 43d07ae to fee on UAT"
+git commit -m "Deploy gitsha 0ddb9da2 to cashier on UAT"
+gpush RC-COINX-8456-fix-etransfer-status-change
+git commit -m "Endpoint handles control exception and raise error for not found"
+black mount/app/adapters/http/v1/webhooks/zum_events.py mount/tests/adapters/webhooks/test_zum_events.py
+./run_local.sh tests -o usecases/transactions/test_update.py adapters/webhooks/test_zum_events.py
+./run_local.sh tests -o adapters/webhooks/test_zum_events.py
+black mount/tests/adapters/webhooks/test_zum_events.py
+black tests/adapters/webhooks/test_zum_events.py
+./run_local.sh api
+git commit -m "Deploy gitsha 1285b584 to cashier on UAT"
+git push origin RC-COINX-8456-fix-etransfer-status-change
+git commit -m "Handle webhook call to an already rejected transaction"
+vvpytest tests/adapters/webhooks/test_zum_events.py
+vvpytest tests/usecases/transactions/test_update.py
+git commit -m "Handle exception when tries to update an already approved txn on endpoint" 
+black app/adapters/http/v1/webhooks/zum_events.py
+vvpytest tests/adapters/test_zum.py
+git commit -m "Raise error when try to update a transaction already approved"
+vvpytest tests/usecases/transactions/test_update.pygit s
+./run_local.sh tests -o usecases/transactions/test_update.py
+vvpytest mount/tests/usecases/transactions/test_update.py
+docker-login 
+cat  ~/.docker/config.json 
+ls ~/.docker/
+cp ~/Documents/config.json ~/.docker/
+ls ~/.config/
+rm ~/.docker/config.json
+ls -a ~/Documents/
+ls ~/Documents/
+cp ~/.docker/config.json ~/Documents/
+cat ~/.docker/
+docker-compose up --build cashier-service
+docker rmi -f e9a2e9022f5f 05f7e8d07917
+docker images
+pipenv sync
+git switch -c RC-COINX-8456-fix-etransfer-status-change
+git commit -m "Deploy gitsha a7cd6aa to currency on UAT + set networking.k8s.io/v1 on yaml"
+git whatchanged 
+git commit -m "Deploy gitsha a7cd6aa to currency on UAT"
+git commit -am "Add omitempty to network property"
+docker-compose run currency-service tests
+git rebase RC-COINX-8169
+sleep 25; docker-compose up cashier-service
+go get -u github.com/pressly/goose/cmd/goose
+git branch -D RC-COINX-8394-add-to-currency-table RC-COINX-8169
+q
+git push origin RC-COINX-8394-add-network-to-currency-table
+git commit -am "Update api.md with correct fiels in the response"
+git diff mount/internal/adaptors/db/currency_and_region_repo.go
+goose create add_some_column sql
+docker exec -it 09fe2cb9862a psql -U postgres
+git commit -m "Add Network field to Currency and CurrencyAndRegion models"
+docker exec -it 7493b17d585e psql -U postgres
+git commit -m "Add migration to add column network to currencies table"
+ls -al
+sudo chown luiz.cezer:luiz.cezer 00010_add_network_column_to_curriencies_table.sql
+cd mount/internal/infrastructure/db/migrations/
+history | grep " chown"
+docker-compose run currency-service create-migration postgres add_network_column_to_curriencies_table sql
+history | grep " sql"
+git switch -c RC-COINX-8394-add-network-to-currency-table
+git
+rm -rf mount/internal/infrastructure/db/migrations/goose/
+git push origin RC-COINX-8394-add-to-currency-table
+ls -al /internal/infrastructure/db/
+cd migrations/
+cd db/
+cd infrastructure/
+cd internal/
+docker-compose run currency-service create-migration postgres add_network_column_to_curriencies_table
+docker-compose run currency-service create-migration postgres add_network_column_to_curriencies_table.sql
+git switch RC-COINX-8394-add-to-currency-table
+cd ~/code/currency-service/
+
+docker-compose exec currency-service goose create add_network_column_to_currencies
+docker-compose exec currency-service goose
+docker-compose exec currency-service make migrations.new NAME=add_network_column_to_currencies
+docker exec -it 456c70978679 psql -U postgres
+docker-compose run currency-service migrations
+git switch -c RC-COINX-8394-add-to-currency-table
+omf theme
+omf list
+echo running (pwd) in (uname)
+echo (pwd) in (uname)
+echo $name
+set -e name
+set name XUNDA
+git branch -D RC-COINX-8169
+cd ~/
+gpull; ghash
+git commit -m "Deploy gitsha 9738486 to chain UAT"
+marp kanban.md 
+cd ~/Documents/kanban/
+git push origin RC-COINX-8393-clean-up-ticker-check
+git commit -m "Improve ticker_conversion code"
+vvpytest tests/adapters/test_ticker_conversion.py tests/usecases/test_cosigner.py tests/usecases/test_sweeps.py 
+vvpytest tests/adapters/test_ticker_conversion.py tests/usecases/test_cosigner.py tests/usecases/test_sweeps.py
+history | grep "vvpytest"
+vvpytest tests/adapters/test_ticker_conversion.py::test_get_csx_testnet_ticker
+git push origin RC-COINX-8393-clean-up-ticker-check --force
+git reset --hard 1e3d1f9a3812edb98ab674940aabb42d75deed02
+sleep 15; docker-compose up chain-service
+git commit -am "Improve return for get_csx_ticker/get_fireblocks_asset_id methods"
+black app/adapters/ticker_conversion.py
+pip install toolz
+pipenv install toolz
+git commit -m "Update readme with credentials.pem instructions"
+git add README.md 
+git commit -m "Remove useless test"
+git add mount/tests/adapters/test_ticker_conversion.py
+git diff mount/tests/adapters/test_ticker_conversion.py
+pipenv install psycopg2 --sequential
+pipenv install cytoolz==0.11.0
+pipenv clean; pipenv sync
+git commit -m "Deploy gitsha aa1195d to chain UAT"
+cd  
+cat ~/.gitconfig
+cd  mount/
+black mount/tests/adapters/test_fireblocks_client.py
+git add mount/tests/adapters/test_fireblocks_client.py
+git checkout mount/tests/adapters/test_fireblocks_client.py
+git diff mount/tests/adapters/test_fireblocks_client.py
+git checkout config/credentials/fireblocks_test.pem
+git diff config/credentials/fireblocks_test.pem
+black tests/adapters/test_fireblocks_client.py
+vvpytest tests/adapters/test_fireblocks_client.py::test_get_ticker_balances_with_success_and_testnet
+ls -al config/credentials/
+sudo chmod 777 config/credentials/fireblocks.pem config/credentials/fireblocks_test.pem 
+ls -al config/
+ls config/credentials/
+cd config/
+vvpytest adapters/test_fireblocks_client.py::test_get_ticker_balances_with_success_and_testnet
+cd credentials/
+cd ../config/
+git commit -am "Fix loop to build vault_assets"
+git branch -m RC-COINX-8393-clean-up-ticker-check
+git diff app/adapters/ticker_conversion.py tests/adapters/test_ticker_conversion.py
+git diff app/adapters/fireblocks.py
+vvpytest tests/adapters/
+black vvpytest tests/adapters/test_ticker_conversion.py
+black app/domain/fireblocks/vault_account.py
+black vvpytest tests/adapters/test_ticker_conversion.pyblack
+
+pip install cytoolz
+pipenv install
+pipenv install --python (which python3.7)
+history | grep "which"
+history | grep "3.9"
+black mount/tests/adapters/test_ticker_conversion.py mount/app/adapters/ticker_conversion.py
+git switch -c RC-COINX-8393-allow-more-coins
+mix test
+source .env
+docker-compose up balance-service
+mix tests
+echo '
+END' >> .vsclog
+echo 'Successfully exported' >> .vsclog
+code --list-extensions | sed '' > vsc-extensions.txt
+echo 'Exporting...
+' >> .vsclog
+echo 'START
+' > .vsclog
+docker-compose up kafka schema-registry cassandra elasticsearch zookeeper statsd
+git checkout RC-COINX-8308-refactor-protocols
+fiat
+rm -rf ~/.vscode/
+cd ~/.vscode/
+rm -rf Code/
+cd User/
+cd Code/
+cd ~/.config/
+cd ~/code/cashier-service/
+git push origin RC-COINX-8257-tests
+pipenv run pytest -vv tests/commons/idempotency_tokens/test_idempotency_tokens.py
+pipenv run pytest -vv tests/adapters/http/test_monitoring.py tests/adapters/kafka/test_kafka.py tests/commons/idempotency_tokens/test_idempotency_tokens.py
+docker-compose down
+docker-compose up fiat-service
+git commit -m "Call on_message with a try/finally wrap"
+git pull origin RC-COINX-8257-tests
+git checkout RC-COINX-8257-tests
+git branch -D RC-COINX-8257-tests
+git pull origin RC-COINX-8257-tests --force
+cd ~/code/fiat-service/
+git commit -am "Remove pytest.mark.skip"
+./run_local.sh tests -o commons/idempotency_tokens/test_idempotency_tokens.py::test_has_message_been_processed_not_in_db
+./run_local.sh tests -o commons/idempotency_tokens/test_idempotency_tokens.py
+./run_local.sh tests -o commons/idempotency_tokens/test_idempotency_tokens
+./run_local.sh tests -o adapters/http/test_middlewares.py
+./run_local.sh tests -o
+./run_local.sh tests -o adapters/kafka/test_event_dispatcher.py::test_skip_message_if_handler_cant_return_account_id
+cat Pipfile.lock | grep async
+cat Pipfile.lock 
+docker exec -it b28194074058 psql -U postgres
+./run_local.sh tests -o adapters/kafka/test_event_dispatcher.py::test_skip_message_if_handler_cant_return_account_id;
+./run_local.sh tests -o adapters/kafka/test_event_dispatcher.py::test_skip_message_if_duplicate
+./run_local.sh tests -o adapters/kafka/test_event_dispatcher.py
+black mount/app/adapters/kafka/event_dispatcher.py
+./run_local.sh tests -o adapters/http/test_monitoring.py::test_get_health_check
+vvpytest
+git checkout RC-COINX-8086-update-dependencies
+git checkout -b RC-COINX-8270-publish-fiat-data
+git branch -D RC-COINX-8086-update-dependencies RC-COINX-8166-drop-payment-provider-integration-feature-branch RC-COINX-8269-schema-topic-fiat-data
+git commit -am "Make jenkins happy again"
+git commit -m "Make jenkins happy again"
+vvpytest tests/commons/test_json.py
+git commit -am "Add URL and ENUM to test_json"
+black mount/tests/commons/test_json.py
+git commit -am "Clean up test_json"
+git commit -m "Add _handler_name to init and remove property"
+history | grep "cashier-service"
+black mount/tests/adapters/http/test_middlewares.py
+vvpytest tests/adapters/http/test_middlewares.py
+./run_local.sh tests -o tests/adapters/http/test_middlewares.py
+./run_local.sh tests -o mount/tests/adapters/http/test_middlewares.py
+docker-compose run currency-service rate-puller
+docker exec -it 17af3bc05e12 psql -U postgres
+docker exec -it e862f5ebdf50 psql -U postgres
+exitg
+git push origin RC-COINX-8269-schema-topic-fiat-data
+git commit -m "Rename topic, keys, values for new avro schema"
+git rebase RC-COINX-8166-drop-payment-provider-integration-feature-branch
+git checkout RC-COINX-8269-schema-topic-fiat-data
+git branch
+git push origin RC-COINX-8166-drop-payment-provider-integration-feature-branch
+git switch -c RC-COINX-8166-drop-payment-provider-integration-feature-branch
+docker exec -it b11f785b1dbf psql -U postgres
+docker exec -it b8a8bbfc04da bash
+docker exec -it b8a8bbfc04da
+docker exec -it ec64443d0f7c psql -U postgres
+cat README.md 
+docker-compose run currency-service rate-poller
+docker-compose up currency-service rate-poller
+git clone git@github.com:coinsquarex/currency-service.git
+./scripts/gitsync
+ls scripts/
+git commit -am "Add fiat deposit schema"
+git reset --hard HEAD
+cat ~/.config/fish/config.fish | grep doff
+git commit -m "Add FIAT_DEPOSIT topic and schema"
+git checkout -b RC-COINX-8269-schema-topic-fiat-data
+git switch -c RC-COINX-8269-schema-topic-fiat-data
+git branch -D dependabot/pip/rsa-4.7 RC-COINX-8269-schema-topic-fiat-service RC-COINX-8165 RC-COINX-8149 RC-COINX-8144-defaults
+git switch -c RC-COINX-8269-schema-topic-fiat-service
+git push origin RC-COINX-8257-fiat-service-gitsync
+git commit -am "Add fiat-service to gitsync"
+git checkout -b RC-COINX-8257-fiat-service-gitsync
+pipenv run pytest mount/tests/domain/test_account_bank.py
+./run_local.sh tests -o domain/test_account_bank.py
+git push origin RC-COINX-8248-remove-defaults
+git commit -am "Add seeds folder back"
+docker images | grep fiat
+docker rmi -f 033223bc6c1b
+docker rmi -f bdd1bd263f3f
+docker images | grep pubsub
+git push origin RC-COINX-8248-remove-defaults --force
+git commit -am "Remove unused files"
+docker-compose run fiat-service tests
+git commit -m "Resolve conflicts"
+git checkout RC-COINX-8248-remove-defaults
+git pull origin RC-COINX-8257-cleanup
+git checkout RC-COINX-8257-cleanup
+rm Pipfile.lock
+git push origin RC-COINX-8257-jenkinsfile --force
+git reset --hard 18f626d54db4a3b5c0f46c0daad9253a0b9b79f0
+git push origin RC-COINX-8257-jenkinsfile
+git reset --soft
+git pull origin RC-COINX-8257-jenkinsfile
+git commit -am "Decrease coverage to 30% (temporary) just to test if green check will happen"
+git commit -m "Fix start.sh"
+git add scripts/start.sh
+qgit s
+vvpytest tests/adapters/kafka/test_event_dispatcher.py
+docker-compose run fiat-service testa
+docker-compose run fiat-service test
+git checkout tests/adapters/http/test_middlewares.py tests/adapters/kafka/test_event_dispatcher.py
+git checkout app/adapters/http/middlewares.py tests/adapters/http/test_middlewares.py
+pipenv install --python (which python3.9)
+which python3.9
+git pull origin RC-COINX-8257-fiat-service
+git checkout RC-COINX-8257-jenkinsfile
+git branch -D RC-COINX-8248-remove-defaults RC-COINX-8257-jenkinsfile
+git reset --hard b9e277e561336020c8c5251723b97140f4b88335
+git reset --hard d813a626de14a9c2f832c8e7c36db42f1ccc1fd1
+git commit -am "Decrease coverage to 60% (temporary)"
+git revert 99746ca9289976395c57a1d3a7d205076c2aa649
+pubsub 
+git commit -am "Fix start.sh"
+git push origin RC-COINX-8257-fiat-service
+git commit -m "Add variable that was removed from default values"
+git checkout RC-COINX-8257-fiat-service
+cd  ~/code/agera/
+git commit -m "Remove defaults values from settings"
+git add scripts/run_unit_tests.sh
+pipenv run pytest -vv tests/adapters/http/test_monitoring.py tests/adapters/kafka/test_kafka.py
+history | grep "pipenv run pytest"
+history | grep "pipenv run test"
+history | grep pipenv
+history | grep pipenv run 
+pipenv run pytest -vv commons/idempotency_tokens/test_idempotency_tokens.py
+pienv run pytest -vv commons/idempotency_tokens/test_idempotency_tokens.py
+cat ~/.config/fish/config.fish | grep vvpy
+pipenv run test commons/idempotency_tokens/test_idempotency_tokens.py
+git branch -D RC-COINX-8248-Fix-jenkins-build
+git checkout -b RC-COINX-8248-remove-defaults
+git checkout RC-COINX-8257-remove-defaults
+git checkout Jenkinsfile
+git diff Jenkinsfile
+git checkout RC-COINX-8248-Fix-jenkins-build
+git branch -D RC-COINX-8257-fix-setup Update-README RC-COINX-8257-test-lower-alpine
+git checkout RC-COINX-8257-test-lower-alpine
+git push origin Update-README
+git commit -m "Add migrate_up/down on scripts and help commands"
+./run_local.sh migrate-down
+git checkout Update-README
+pipenv install --python which python3.9
+omf remove pyenv
+omf 
+set-python-3.9
+apt install python3.9 python3.9-dev python3.9-distutils
+sudo apt-get update
+sudo add-apt-repository ppa:deadsnakes/ppa
+lsb_release -a
+sleep 20; docker-compose up cashier-service
+git checkout -b RC-COINX-8257-fix-setup
+pyenv local 3.9.0
+pyenv which
+pyenv version
+pyenv
+history | grep vvpytest
+history | vvpytest
+vvpytest mount/tests/usecases/transactions/test_util.py
+pyenv install -v 3.9.0
+pyenv install --list | grep " 3\.[6789]"
+git branch -D RC-COINX-8257 RC-COINX-8257-add-migration-
+pyenv install --list | grep " 3\.[678]"
+pyenv list
+omf install pyenv
+omf update
+curl https://pyenv.run | bash
+sudo apt-get install -y make build-essential libssl-dev zlib1g-dev \
+libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev \
+libncursesw5-dev xz-utils tk-dev libffi-dev liblzma-dev python-openssl
+cd ~
+python --version
+which python3
+which python
+python3 --version
+dpkg-query -l |grep python
+pipenv run alembic -c alembic.ini revision -m "create workers idempotency table"
+cd mo
+git checkout -b RC-COINX-8257-add-migration-
+docker exec -it c0e72460f2a0 psql -U postgres
+docker-compose run fiat-service migrate
+git status
+docker-compose run fiat-service
+docker-compose ps
+docker-compose restart
+docker restart
+git checkout  RC-COINX-8257
+cat ./run_local.sh
+cat ~/.config/fish/config.fish | grep docker-login
+fiat 
+wmctrl -l
+git remote set-head origin -a
+git branch -u origin/master master
+git fetch origin
+git branch -m main master
+cd fiat-service/
+git clone git@github.com:coinsquarex/fiat-service.git
+git commit -m "Deploy gitsha cfd73993 to cashier UAT"
+sleep 80; pipenv run pytest tests/adapters/test_zum.py tests/adapters/webhooks/test_zum_events.py
+cat ~/.config/fish/config.fish | grep vvpytest
+sleep 60; ./run_local.sh tests
+sleep 30; docker-compose up cashier-service
+gpull; git checkout RC-COINX-8165
+git push origin RC-COINX-7944-add-pr-template --force
+git commit -m "Add pull request template"
+gpush RC-COINX-7944-add-pr-template
+git checkout -b RC-COINX-7944-add-pr-template
+git branch -D RC-COINX-7655-get-balances-using-timestamp RC-COINX-8035-validate-accound-tracking-id RC-COINX-8116-run-migrations-manually RC-COINX-7164-cassandra-metric-down RC-COINX-7164-cassandra-metric RC-COINX-6881-upgrade-elixir-fixes RC-COINX-6881-upgrade-elixir
+git commit -m "Deploy gitsha c756e63e to cashier UAT"
+git commit -m "Deploy gitsha c233659a to cashier UAT"
+gpush RC-COINX-8144-defaults
+git commit -m "Update HMAC signature for webhook tests"
+pipenv run pytest tests/adapters/http/test_authorization.py tests/adapters/webhooks/test_zum_events.py
+./run_local.sh tests -o adapters/http/test_authorization.py adapters/webhooks/test_zum_events.py
+pipenv run pytest tests/adapters/webhooks/test_zum_events.py
+pipenv run pytest tests/adapters/http/test_authorization.py
+git commit -m "Update HMAC signature for auth tests"
+git add mount/tests/adapters/http/test_authorization.py
+git commit -m "Change default value for ZUM_WEBHOOK to CHANGEME"
+git add mount/tests/default_settings.py
+git diff mount/tests/default_settings.py mount/tests/adapters/http/test_authorization.py
+./run_local.sh tests -o adapters/http/test_authorization.py
+pipenv run pytest adapters/http/test_authorization.py
+git branch -D RC-COINX-7164-add-cassandra-ms-health-check RC-COINX-7364 RC-COINX-8144-defaults RC-COINX-8144-set-variables-for-cashier-zum-integration
+git branch RC-COINX-7164-add-cassandra-ms-health-check RC-COINX-7364 RC-COINX-8144-defaults RC-COINX-8144-set-variables-for-cashier-zum-integration
+git commit -m "Deploy gitsha f0a2481f to cashier UAT"
+git commit -m "Deploy gitsha 782e02ba to cashier UAT"
+g
+git checkout RC-COINX-8144-defaults
+git checkout dependabot/pip/rsa-4.7
+git push origin RC-COINX-8144-defaults --force
+git push origin RC-COINX-8144-defaults
+sleep 20; ./run_local.sh tests
+git commit -m "Fix rebase and fix settings.py"
+pipenv run pytest tests/adapters/test_zum.py
+git commit -m "Rebase with master and fix settings.py"
+pipenv run pytest tests/adapters
+sleep 20; vvpytest 
+sleep 10; docker-compose up cashier-service
+sleep 10; docker-compose up kafka schema-registry
+git pull origin RC-COINX-8144-defaults
+git commit -am "WIP: adding prints to log error"
+wmctrl -r spotify -b toggle,fullscreen
+ps aux | grep spotify
+git commit -am "Using settings and default_settings running ok for tests in container"
+gpush RC-COINX-8144-set-variables-for-cashier-zum-integration
+git revert 04455e8a391e8f82a33d947a6d920609594f0c48
+git pull origin RC-COINX-8144-set-variables-for-cashier-zum-integration
+git push origin RC-COINX-8144-set-variables-for-cashier-zum-integration
+git commit -m "Create a variable to set environ if is empty"
+git checkout mount/tests/adapters/gmail/test_gmail_event_dispatcher.py
+pipenv run pytest -vv
+pipenv run pytest -vv tests/domain/e_transfer_request_money/test_deposit.py
+./scripts/migrate.sh
+docker-compose run cashier-service db-bootstrap
+docker exec -it 679565b7bce8 psql -U postgres
+pipenv run pytest -vvtests/domain/e_transfer_request_money/test_deposit.py
+git commit -m "Fix typo"
+git checkout scripts/start.sh
+git diff scripts/start.sh
+./run_local.sh tests -o adapters/gmail/test_gmail_event_dispatcher.py
+pipenv run pytest -vv tests/adapters/gmail/test_gmail_event_dispatcher.py
+git reset --soft HEAD~1
+git reset --soft 78efb41a63343913eab4a54811cc3e49852f1648
+git reset 78efb41a63343913eab4a54811cc3e49852f1648
+git commit -am "Set all variables in default_settings file"
+git commit -am "Fix DB urls"
+git commit -am "Remove use of cast"
+git commit -am "Start exposing default in a separated files for testing"
+python3 main.py 
+cd Desktop/
+git reset --hard 145f3a459184a5174196a40de1812f7b26a46752
+rm mount/tests/tests_default_settings.py
+docker exec it 679565b7bce8 psql -U postgres
+docker exec it 679565b7bce8 psql -U postres
+pipenv run pytest -vv adapters/gmail/test_gmail_event_dispatcher.py
+pipenv run pytest -vv adapters/gmail/test_gmail_event_dispatcher.py::test_gmail_event_dispatcher_start_and_dispatch_email_with_success
+git commit -am "Rename settings to KAFKA_DELIVERY_TIMEOUT_MS"
+git commit -m "Rename settings to KAFKA_DELIVERY_TIMEOUT_MS"
+./run_local.sh tests -o adapters/gmail/test_gmail_event_dispatcher.py::test_gmail_event_dispatcher_start_and_dispatch_email_with_success
+black mount/app/commons/settings.py mount/tests/tests_default_settings.py
+vvpy
+python33
+sleep 20; doff; pm-suspend
+sudo dpkg -i code_1.57.1-1623937013_amd64.deb
+sudo dpki -i code_1.57.1-1623937013_amd64.deb
+which vs
+which vscode
+git reset --hard ea26f4f883e39d991c8f3bba6ecdbcf42d53f186
+git commit -m "Adding PUBLIC_SERVICE_TOKEN_SIGN_STRING & ADMIN_SERVICE_TOKEN_SIGN_STRING default values"
+git commit -am "Add default for APP_URL and METRICS_DIR"
+git commit -am "Remove APP_ENV from settings"
+git commit -m "Remove APP_ENV"
+git revert 8da5d12bebb0c505aa8749c72afc00503a810a37
+git branch  -D RC-COINX-8144-defaults
+git commit -m "Add defaults for APP_URL, METRIC_ID, JWT_SECRET"
+git revert a5bae00aa9b4740264977161bb4516a97ca269bb
+git commit -am "Set env variables to run in Jenkins build"
+git commit -am "Add blank line"
+git reset --hard 7dff4fa0657abf99419157309199dd2485a2f715
+git commit -am "Set SYSTEM_UUID as constant"
+git commit -am "Rename ZUM_BASE_URI to ZUM_BASE_URL"
+git commit -m "Rename ZUM_BASE_URI to ZUM_BASE_URL"
+git commit -am "Remove highgarden defaults"
+git commit -m "Remove defaults from etransfer"
+git commit -am "Add settings for kafka and s3url"
+git commit -am "Remove paysafe defaults"
+git commit -am "Remove default values for PG and KAFKA settings"
+git commit -m "Remove default values for PUBLIC_JWT_SECRET and ADMIN_JWT_SECRET"
+git commit -m "Add zumrails settings for cashier"
+git commit -m "Remove APP_URL and HOSTNAME from settings"
+./run_local.sh migrate-dd
+/run_local.sh db-bootstrap
+docker exec -it b1ecb122df2a psql -U postgres
+docker exec -it 2efcfdc2d727 psql -U postgres
+git checkout RC-COINX-8149
+git commit -am "Remove the defaults from some services and zum rails variables"
+git checkout -b RC-COINX-8144-set-variables-for-cashier-zum-integration
+git checkout -b RC-COINX-8144-defaults
+git commit -am "Fix ZUM_BASE_URI variable name"
+git branch -D RC-COINX-8136-feature/improve-etransfer-logs RC-COINX-8144-remove-settings-defaut-values
+git checkout -b RC-COINX-8144-remove-settings-defaut-values
+git pull origin RC-COINX-8136-feature/improve-etransfer-logs
+git checkout RC-COINX-8136-feature/improve-etransfer-logs
+git switch -c RC-COINX-8144-remove-settings-defaut-values
+git branch -D RC-COINX-8809-zum-webhook-gateway-process-webhook RC-COINX-new-topic-first-deposit RC-COINX-8809-zum-webhook-calls-transaction-usecase RC-COINX-8009 RC-COINX-7890-feature-branch-new-topic
+doff; exit
+docker-compose run balance-service migrate-up
+docker-compose logs -f
+docker-compose up -d kafka schema-registry cassandra elasticsearch zookeeper statsd
+git checkout RC-COINX-8116-run-migrations-manually
+git describe
+git checkout -b RC-COINX-8009
+git pull origin RC-COINX-7890-feature-branch-new-topic
+git checkout RC-COINX-7890-feature-branch-new-topic
+docker-compose run accounts-service test
+docker-compose up accounts-service
+git pull origin RC-COINX-8010-zum-webhook-text-asis
+git checkout RC-COINX-8010-zum-webhook-text-asis
+cat ~/.config/fish/config.fish | grep grm
+git checkout RC-COINX-new-topic-first-deposit
+git branch -D RC-COINX-new-topic-first-deposit
+git commit -m "Deploy gitsha b2070fc6 to cashier UAT"
+gpush RC-COINX-8809-zum-webhook-calls-transaction-usecase --force
+git RC-COINX-8809-zum-webhook-calls-transaction-usecase --force
+git commit -m "Skip the signature checker on auth"
+git reset --hard 0283d8c9ecec458f325aec959243ff5d05f60c10
+git commit -m "Deploy gitsha 0283d8c9 to cashier UAT"
+gpush RC-COINX-8809-zum-webhook-calls-transaction-usecase
+git commit -am "Add logs for raw bytes"
+git commit -m "Deploy gitsha 19151d44 to cashier UAT"
+./run_local.sh tests -o adapters/test_zum.py
+git commit -m "Deploy gitsha f57abe86 to cashier UAT"
+git revert 6e1c877c78f92c626ed03224f36912b07fcb4644
+git commit -m "Deploy gitsha 6e1c877c to cashier UAT"
+git commit -am "Force to create a failed transaction on zumrails"
+git commit -m "Force to create a failed transaction on zumrails"
+git commit -m "Adding dimension to metric on transactions usecase"
+git commit -m "Add metrics to transaction usecases"
+black mount/app/usecases/transactions/transactions.py
+docker-compose up -d kafka schema-registry
+docker-login-2
+docker-login-1
+aws ecr get-login-password \
+    --region us-east-1 \
+| docker login \
+    --username AWS \
+    --password-stdin 623494789560.dkr.ecr.us-east-1.amazonaws.com
+
+gsts --aws-role-arn arn:aws:iam::623494789560:role/dev --sp-id 564316313336 --idp-id C033tguln --username luiz.cezer@coinsquare.com --aws-profile default
+sudo cat ~/.config/fish/config.fish
+sudo nano ~/.bashrc 
+aws s3 ls s3://k8s-boxster-es-logs/2021.02.23/
+
+aws ecr list-images --repository-name cashier-service
+aws ecr list-images --repository-name comms-service
+gsts --aws-role-arn arn:aws:iam::623494789560:role/dev --sp-id 564316313336 --idp-id C033tguln --username [your coinsquare email] --aws-profile default
+saml2aws login --verbose
+ls ~/Downloads/
+mv ~/Downloads/aws-backup/ ~/Documents/
+mv -R ~/Downloads/aws-backup/ ~/Documents/
+cp config credentials ~/Downloads/aws-backup/
+cd ~/.aws/
+mkdir ~/Downloads/aws-backup
+ls ~/.aws/
+mv kdewallet.kwl kdewallet.salt ~/Documents/kwalletd-backup/
+mkdir ~/Documents/kwalletd-backup
+cat kdewallet.salt 
+cat kdewallet.kwl 
+cd ~/.local/share/kwalletd/
+which kde
+which wallet
+which kwallet
+saml2aws login
+saml2aws configure
+saml2aws --version
+aws --version
+sudo ./aws/install --bin-dir /usr/bin --install-dir /usr/bin --update
+sudo ./aws/install --bin-dir /usr/bin --install-dir /usr/bin/aws --update
+ls -l /usr/bin/aws
+ls -l /usr/local/bin/aws
+which aws
+unzip awscliv2.zip
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+git commit -m "Deploy gitsha 95ddae45 to cashier UAT"
+git commit -am "Publish message after we commit the txn to db"
+git commit -m "Publish message after we commit the txn to db"
+git commit -m "Publish message when transaction updated has a diff status than original one"
+git commit -am "Adding call to transaction.update in a db transaction wrapper"
+docker exec -it 1ddf52456295 psql -U postgres
+history | grep "statsd"
+git pull origin RC-COINX-8035-validate-accound-tracking-id
+git commit -am "Deploy gitsha c7a25506 to cashier UAT"
+git commit -m "Deploy gitsha c7a25506 to cashier UAT"
+git commit -m "Fix return for NoneType jwt"
+git commit -m "Deploy gitsha dff04625 to cashier UAT"
+git 
+ghas
+git commit -am "Deploy gitsha 364598f4 to cashier UAT"
+git commit -m "Deploy gitsha 364598f4 to cashier UAT"
+git .
+git commit -am "Skip raising exception when hmac does not match, just for testing the flow"
+git pull origin RC-COINX-8010-webhook-zum
+git checkout RC-COINX-8010-webhook-zum
+git branch -D RC-COINX-8010-webhook-zum
+git commit -m "Deploy gitsha bc89856c to cashier UAT"
+git commit -m "SQL to rename column name from user_email to email"
+git commit -am "Add logs and remove unused import"
+black mount/app/adapters/http/authorization.py
+git commit -m "WIP"
+docker exec -it 5dd5adba7b09 psql -U postgres
+pipenv run alembic -c alembic.ini revision -m "alter column from user_email to email on table etransfer_request_money_deposits"
+git commit -m "Rename from user_email to email on code"
+git commit -m "Deploy gitsha 8aae3b07 to cashier UAT"
+git rebase -i HEAD~3
+git commit -am "Black :lipstick:"
+black mount/tests/adapters/test_zum.py
+git commit -am "Fix tests for request to zum adapter"
+git commit -m "Fix tests for request to zum adapter"
+git push origin RC-COINX-8809-zum-webhook-calls-transaction-usecase
+git commit -m "Fix wrong condition to validate the ZumToken"
+./run_local.sh -o adapters/test_zum.py
+git commit -m "Deploy gitsha 36a3a7b7 to PublicApi UAT"
+gpush RC-COINX-8010-webhook-zum
+git commit -am "Add logs to zum webhook flow"
+rm mount/tests/zum_webhook_sample/webhook_uat.json 
+docker ps | grep "code_accounts-service_1"
+git branch -D RC-COINX-7894 RC-COINX-7894-add-revoke-flag-suspend-withdraw RC-COINX-7894-revoke-flag-suspend-withdraw RC-COINX-7896 RC-COINX-7896-fourth-attempt RC-COINX-7896-second-attempt RC-COINX-7896-third-attempt
+docker ps | grep "name=code_accounts-service_1"
+docker ps -aqf "name=code_accounts-service_1"
+cd /home/luiz.cezer/code/agera/
+git commit -m "Deploy gitsha 322b7114 to cashier UAT"
+git commit -am "Change method name that handles the webhook call"
+git commit -m "Change method name that handles the webhook call"
+git commit -m "Remove unused code and change webhook response to be 200"
+black mount/app/adapters/http/v1/webhooks/zum_events.py mount/app/domain/e_transfer_request_money/gateway.py mount/tests/adapters/webhooks/test_zum_events.py
+git commit -am "Fix method call to add keywords argument"
+black mount/app/adapters/http/v1/webhooks/zum_events.py
+git commit -am "Fix logger"
+git commit -m "Fix logger"
+git commit -m "Endpoint to handle webhook returns empty response and status 204"
+black mount/app/domain/e_transfer_request_money/gateway.py
+docker stop  d396b115a53e b09128432949
+docker stop b172930a2eee
+docker-compose exec balance-service scripts/start.sh ledger_processor
+docker-compose exec balance-service scripts/start.sh transaction_aggregator
+docker-compose up -d kafka schema-registry cassandra elasticsearch zookeeper
+docker-compose up balance-service 
+docker-compose up -d cassandra
+git commit -am "Fix typo proccess to process"
+git commit -m "Fix typo proccess to process"
+docker-compose up cassandra
+docker-compose up kafka schema-registry cassandra elasticsearch zookeeper
+git commit -m "Add more logs to webhook flow"
+black mount/app/adapters/http/v1/webhooks/zum_events.py mount/app/domain/e_transfer_request_money/gateway.py
+git checkout RC-COINX-8035-validate-accound-tracking-id
+bla
+git commit -m "Add test case when zumrails-signature is not provided"
+black mount/tests/adapters/webhooks/test_zum_events.py mount/app/adapters/http/v1/webhooks/zum_events.py
+git commit -m "Handle case where webhook receives failed transcation"
+docker-compose exec cashier-service /scripts/db-seed-postgres.sh /seeds/local up
+git commit -m "Add zum_hmac_auth to webhook and test with approved txn"
+git commit -m "Calls webhook endpoint with no_auth"
+git checkout RC-COINX-8809-zum-webhook-calls-transaction-usecase
+gpush RC-COINX-8809-zum-webhook-gateway-process-webhook
+git commit -am "Fix value for metadata when transform to a record"
+giit s
+git checkout RC-COINX-8809-zum-webhook-gateway-process-webhook
+git rebase RC-COINX-8809-zum-webhook-gateway-process-webhook
+git commit -m "Remove method to return mapped status and use a constant"
+black mount/tests/domain/e_transfer_request_money/test_gateway.py mount/app/domain/e_transfer_request_money/gateway.py
+git commit -am "Rename variables"
+git push origin RC-COINX-8809-zum-webhook-gateway-process-webhook --force
+git reset --hard 4ec1261cabf0cbdf156102cd8f532158c76b5971
+git switch RC-COINX-8809-zum-webhook-gateway-process-webhook
+git branch -D RC-COINX-8009-zum-webhook-gateway-process-webhook-II
+git cherry-pick --quit
+git cherry-pick d7c1cc5182fbe51438568f8587ec112e80084341
+git switch -c RC-COINX-8809-zum-webhook-calls-transaction-usecase
+git switch RC-COINX-8809-zum-webhook-calls-transaction-usecase
+black mount/tests/adapters/webhooks/test_zum_events.py  mount/app/adapters/http/v1/webhooks/zum_events.py
+rm -rf mount/tests/adapters/webhooks/
+rm mount/tests/adapters/webhooks/
+git commit -am "Clean up code by adding a function to return the mapped status"
+git commit -m "Clean up code by adding a function to return the mapped status"
+./run_local.sh tests -o domain/e_transfer_request_money/
+git commit -m "Gateway handles case for a Cancelled response from webhook"
+git commit -m "Gateway handles case for a Failed response from webhook"
+git commit -m "Gateway adds a new record with metadata"
+git ad .
+git commit -m "Remove update method"
+./run_local.sh tests -o domain/e_transfer_request_money/test_deposit.py
+git commit -am "Set default value for ETransferRequestMoneyDeposit.metadata as None"
+git commit -m "Set default value for ETransferRequestMoneyDeposit.metadata as None"
+git push origin RC-COINX-8009-zum-webhook-gateway-process-webhook-II
+git cherry-pick cf234f9c0d4a4359b5f41e229e6df18ec803cfd4
+git switch -c RC-COINX-8009-zum-webhook-gateway-process-webhook-II
+
+git branch -D RC-COINX-8009-zum-webhook-gateway-process-webhook
+git branch -D RC-COINX-8809-zum-webhook-gateway-process-webhook
+git branch -D RC-COINX-8006-add-request-money RC-COINX-8809-zum-webhook-endpoint
+gpush RC-COINX-8009-zum-webhook-gateway-process-webhook
+git checkout -b RC-COINX-8009-zum-webhook-gateway-process-webhook
+black mount/tests/domain/e_transfer_request_money/ mount/app/domain/e_transfer/
+black mount/tests/domain/e_transfer_request_money/ mount/domain/e_transfer_request_money/
+black mount/tests/domain/e_transfer_request_money/
+black mount/tests/domain/e_transfer_request_money/test_gateway.py
+git commit -m "Add missing test to check key value"
+gpush RC-COINX-8809-zum-webhook-gateway-process-webhook --force
+git commit -m "Create domain query to update RequestMoneyDeposit record"
+git commit -m "Add column rec_updated_at to table etransfer_request_money_deposit"
+git add mount/database/versions/2021_06_09_10_24_26_add_metadata_etransfer_request_money_deposits.py
+git checkout mount/app/domain/banks/bank.py mount/app/domain/paysafe/credit_card.py
+black mount/app/domain/e_transfer_request_money/deposit.py mount/tests/domain/e_transfer_request_money/test_deposit.py
+./run_local.sh tests -o domain/e_transfer_request_money
+docker exec -it e1d5e56ea2af psql -U postgres
+git commit -m "Update table etransfer_request_money_deposits with metadada column"
+pipenv run alembic -c alembic.ini revision -m "update etransfer_request_money_deposits to add metadata column"
+git switch -c RC-COINX-8809-zum-webhook-gateway-process-webhook
+http POST localhost:10301/v1/webhooks/zum-events zumrails-signature:vqcIB+W8srh+sgO2fLMKOMzyRWLjbMd+JtbpoRD9Afg= '{"Type":"Transaction","Data":{"Id":"6354f898-732b-488e-98e2-c4548105db53","CreatedAt":"2021-06-07T04:01:14.470309","Memo":"Interac from Request Funds","Comment":"Request Funds Id: 27b98790 f447 404f 825a 4b6b6d7652f4","Amount":1.13,"Customer":{"Id":"3a3d70f9-3d4a-437e-bbf1-68318f0c7d67","CompanyName":"Prong Financial"},"User":{"Id":"d2f1ea74-3108-4986-9a8a-43edb870d477","FirstName":"Mike5","LastName":"Mike5","CompanyName":null},"TargetUser":null,"Wallet":{"Id":"e3cc6d70-1fbe-483a-b648-1d6654390191","Type":4},"TargetWallet":null,"FundingSource":null,"ZumRailsType":"AccountsReceivable","TransactionMethod":"Interac","TransactionHistory":[{"Id":"da04cd04-2a19-4a27-b352-3892d7c189c6","CreatedAt":"2021-06-07T04:02:12.4127057Z","Event":"Succeeded","EventDescription":"Transaction completed"},{"Id":"7a4f1e65-b0e7-4abf-a495-bd7471e4a065","CreatedAt":"2021-06-07T04:02:12.3230081Z","Event":"WalletFunded","EventDescription":"Wallet was funded, amount: $1.13"},{"Id":"9fd49055-e528-4ec4-b80f-4f402ce1d904","CreatedAt":"2021-06-07T04:02:10.9578401Z","Event":"InteracAcknowledgedDebit","EventDescription":"Interac acknowledged by Financial Institution"},{"Id":"cb731a4d-ec9e-49c2-977e-5bb478d8467e","CreatedAt":"2021-06-07T04:02:10.8517348Z","Event":"InteracSent","EventDescription":"Interac sent to Financial Institution"},{"Id":"7556977a-ecdf-49af-aa60-7912e044e93d","CreatedAt":"2021-06-07T04:01:14.598109","Event":"Started","EventDescription":"Transaction with type AccountsReceivable started, from User Mike5 Mike5 - (test2@zumrails.com) to Zūm Wallet (Eft) with amount: $1.13"}],"TransactionStatus":"Completed","FailedTransactionEvent":null,"From":"User Mike5 Mike5 - (test2@zumrails.com)","To":"Zūm Wallet (Eft)","RecurrentTransactionId":"77b23f49-1f8d-45e5-9205-70094445f604","InteracHasSecurityQuestionAndAnswer":false,"InteracSecurityQuestion":null,"InteracSecurityAnswer":null,"ScheduledStartDate":null,"BatchCsvIdCounter":null,"PeoplesTrustRequestId":null,"InteracUrl":null,"ClientTransactionId":null}}'
+http POST localhost:10301/v1/webhooks/zum-events zumrails-signature:vqcIB+W8srh+sgO2fLMKOMzyRWLjbMd+JtbpoRD9Afg= type="Transaction" data="{
+  "Type": "Transaction",
+  "Data": {
+    "Id": "6354f898-732b-488e-98e2-c4548105db53",
+    "CreatedAt": "2021-06-07T04:01:14.470309",
+    "Memo": "Interac from Request Funds",
+    "Comment": "Request Funds Id: 27b98790 f447 404f 825a 4b6b6d7652f4",
+    "Amount": 1.13,
+    "Customer": {
+      "Id": "3a3d70f9-3d4a-437e-bbf1-68318f0c7d67",
+      "CompanyName": "Prong Financial"
+    },
+    "User": {
+      "Id": "d2f1ea74-3108-4986-9a8a-43edb870d477",
+      "FirstName": "Mike5",
+      "LastName": "Mike5",
+      "CompanyName": null
+    },
+    "TargetUser": null,
+    "Wallet": {
+      "Id": "e3cc6d70-1fbe-483a-b648-1d6654390191",
+      "Type": 4
+    },
+    "TargetWallet": null,
+    "FundingSource": null,
+    "ZumRailsType": "AccountsReceivable",
+    "TransactionMethod": "Interac",
+    "TransactionHistory": [
+      {
+        "Id": "da04cd04-2a19-4a27-b352-3892d7c189c6",
+        "CreatedAt": "2021-06-07T04:02:12.4127057Z",
+        "Event": "Succeeded",
+        "EventDescription": "Transaction completed"
+      },
+      {
+        "Id": "7a4f1e65-b0e7-4abf-a495-bd7471e4a065",
+        "CreatedAt": "2021-06-07T04:02:12.3230081Z",
+        "Event": "WalletFunded",
+        "EventDescription": "Wallet was funded, amount: $1.13"
+      },
+      {
+        "Id": "9fd49055-e528-4ec4-b80f-4f402ce1d904",
+        "CreatedAt": "2021-06-07T04:02:10.9578401Z",
+        "Event": "InteracAcknowledgedDebit",
+        "EventDescription": "Interac acknowledged by Financial Institution"
+      },
+      {
+        "Id": "cb731a4d-ec9e-49c2-977e-5bb478d8467e",
+        "CreatedAt": "2021-06-07T04:02:10.8517348Z",
+        "Event": "InteracSent",
+        "EventDescription": "Interac sent to Financial Institution"
+      },
+      {
+        "Id": "7556977a-ecdf-49af-aa60-7912e044e93d",
+        "CreatedAt": "2021-06-07T04:01:14.598109",
+        "Event": "Started",
+        "EventDescription": "Transaction with type AccountsReceivable started, from User Mike5 Mike5 - (test2@zumrails.com) to Zūm Wallet (Eft) with amount: $1.13"
+      }
+    ],
+    "TransactionStatus": "Completed",
+    "FailedTransactionEvent": null,
+    "From": "User Mike5 Mike5 - (test2@zumrails.com)",
+    "To": "Zūm Wallet (Eft)",
+    "RecurrentTransactionId": "77b23f49-1f8d-45e5-9205-70094445f604",
+    "InteracHasSecurityQuestionAndAnswer": false,
+    "InteracSecurityQuestion": null,
+    "InteracSecurityAnswer": null,
+    "ScheduledStartDate": null,
+    "BatchCsvIdCounter": null,
+    "PeoplesTrustRequestId": null,
+    "InteracUrl": null,
+    "ClientTransactionId": null
+  }
+}"
+http POST localhost:10301/v1/webhooks/zum-events zumrails-signature:vqcIB+W8srh+sgO2fLMKOMzyRWLjbMd+JtbpoRD9Afg= type="Transaction" data={}
+http POST localhost:10301/v1/webhooks/zum-events zumrails-signature=vqcIB+W8srh+sgO2fLMKOMzyRWLjbMd+JtbpoRD9Afg= type="Transaction" data={}
+http POST localhost:10301/v1/webhooks/zum-events zumrails-signature=vqcIB+W8srh+sgO2fLMKOMzyRWLjbMd+JtbpoRD9Afg=
+http POST localhost:10301/v1/webhooks/zum-events
+sudo apt-get install httpie
+sleep 60; docker-compose up cashier-service
+sleep 30s; docker-compose up schema-registry
+docker-compose up kafka zookeeper
+git checkout RC-COINX-8809-zum-webhook-endpoint
+git commit -m "Deploy gitsha d21c5e0 to accounts UAT"
+git commit -m "Deploy gitsha 0e98f1ee to cashier UAT"
+git commit -m "Deploy gitsha 487b3317 to cashier UAT"
+gpush RC-COINX-8006-add-request-money
+git commit -m "Remove unused exception, rename file to be deposit"
+git add . 
+docker exec -it 466329449c6c psql -U postgres
+git commit -am "Fix typo on table name"
+git commit -am "Add prefix ETransfer/etransfer to dataclass, repo and table"
+sleep 25; ./run_local.sh tests
+git commit -m "Set provider_name as Zum, create provider_txn_id as string column"
+sleep 15; ./run_local.sh tests -o domain/e_transfer_request_money
+docker-compose run cashier-service bootstrap
+docker stop (docker ps -aqf "name=code_cashier-service_1")
+docker stop (docker ps -aqf "name=code_cashier_service_1")
+./run_local.sh tests -o domain/e_transfer_request_money/test_request_money_deposit.py
+git commit -m "Gateway does not need to deal with exceptions"
+git commit -m "Fix return for gateway validate method"
+git commit -am "Remove duplicated zum imports"
+gpush RC-COINX-8006-add-request-money --force
+git commit -am "Remove extra zum_client method and fix merge issues"
+git branch -D RC-COINX-8021 RC-COINX-8006
+git pull origin master
+docker ps | grep cashier
+git commit -m "Deploy gitsha 2b97a29 to pubsub on UAT"
+git switch -c RC-COINX-8006-add-request-money
+gpush RC-COINX-8006 --force
+git commit -m "Fix merge"
+gpush RC-COINX-8006
+git pull origin RC-COINX-8006
+git rebase -i HEAD~4
+git checkout RC-COINX-8006
+git commit -m "Add test case when some shit happens on gateway process call"
+git commit -am "Allow gateway_factor to return RequestMoneyGateway"
+git commit -m "Allo gateway_factor to return RequestMoneyGateway"
+git commit -m "Add e_transfer_request_money/gateway.py process method"
+git commit -m "Add e_transfer_request_money/gateway.py get_transaction method"
+git checkout RC-COINX-8021
+docker-compose up schema-registry
+git commit -am "WIP: Gateway proccess implementation"
+sleep 90; ./run_local.sh tests -o domain/e_transfer_request_money/test_gateway.py
+git commit -m "Add E_TRANSFER_REQUEST_MONEY_DEPOSIT to PaymentType enum"
+git commit -m "Create RequestMoneyGateway class and implement get_transaction"
+git commit -m "Add RequestMoneyDeposit create and get"
+sleep 90s; docker-compose up cashier-service
+sleep 60s; docker-compose up schema-registry
+git clone git@github.com:coinsquarex/cashier-service.git
+sudo rm -rf cashier-service/
+rm -rf cashier-service/
+cd code/
+black mount/tests/domain/e_transfer_request_money/test_request_money_deposit.py
+black mount/tests/domain/e_transfer_request_money/test_gateway.py mount/tests/domain/e_transfer_request_money/test_request_money_deposit.py mount/app/domain/e_transfer_request_money/gateway.py mount/app/domain/e_transfer_request_money/request_money_deposit.py
+black mount/app/domain/e_transfer_request_money/request_money_deposit.py mount/tests/domain/test_e_transfer_request_money_deposit.py
+history | grep "black "
+docker exec -it fb2a75148ebf psql -U postgres
+mix local.rebar --force
+mix deps.get
+mix test --failed
+source ../.env 
+history | grep "kafka "
+git switch RC-COINX-6881-upgrade-elixir-fixes
+docker exec -it e92bb6ba665b psql -U postgres
+docker exec -it 73647c097f18 psql -U postgres
+git commit -m "Add TransactionRepo.create for payment provider"
+git add mount/tests/domain/test_e_transfer_request_money.py mount/app/domain/e_transfer_request_money/transaction.py
+git diff mount/app/domain/e_transfer_request_money/transaction.py mount/tests/domain/test_e_transfer_request_money.py
+git checkout mount/database/versions/2019_09_23_11_02_35_create_wire_withdrawals_table.py
+git diff mount/database/versions/2019_09_23_11_02_35_create_wire_withdrawals_table.py
+git checkout README.md
+git diff README.md
+black mount/tests/domain/test_e_transfer_request_money.py mount/app/domain/e_transfer_request_money/transaction.py
+black mount/tests/domain/test_e_transfer_request_money.py
+black mount/app/domain/e_transfer_request_money/transaction.py
+git commit -m "Add basic payment provider transaction dataclass"
+git add mount/app/domain/e_transfer_request_money/ mount/tests/domain/test_e_transfer_request_money.py
+git commit -m "Create migration for payment_provider_transactions table"
+git add mount/database/versions/2021_06_01_13_53_45_create_payment_provider_transactions_.py
+black mount/database/versions/2021_06_01_13_53_45_create_payment_provider_transactions_.py
+pipenv run alembic -c alembic.ini revision -m "create payment provider transactions table"
+cd scripts/
+git switch -c RC-COINX-8006
+docker exec -it 7f376fb34c73 psql -U postgres
+git commit -m "Deploy githsa 1e7cca3 to accounts-service UAT"
+gpush RC-COINX-7896-third-attempt
+git commit -m "Fix query by doing extract to metadata-expire_at value"
+gofmt -w mount/internal/adapters/db/account_flags.go
+git commit -m "Remove indexes for reason/admin_id that will be not used"
+git commit -am "Add Deprecated comment to method"
+git commit -m "Add Deprecated comment to method"
+git commit -m "Fix expire_at value to be 1 day (24h) instead of 2 days (48h)"
+git commit -m "Deploy githsa 57d1bf5 to accounts-service UAT"
+git commit -am "Add the missing AND to the query"
+git commit -m "Deploy githsa 83eba14 to accounts-service UAT"
+git checkout RC-COINX-7896-third-attempt
+git cherry-pick 83eba14b40cf16eb2725dec3722d3638584be8e5
+git checkout RC-COINX-7896-fourth-attempt
+git switch RC-COINX-7896
+git switch -c RC-COINX-7896-fourth-attempt
+git switch -c RC-COINX-7896-third-attempt
+gpush RC-COINX-7896
+git commit -m "Fix query to return the last suspend_withdraw and then apply filters"
+git switch -c RC-COINX-7896-second-attempt
+git commit -m "Try to fix weird bug that removes flag suspend_withdraw when user logins in"
+sudo dpkg -i /home/luiz.cezer/Downloads/code_1.56.2-1620838498_amd64.deb
+git commit -m "Deploy githsa f70845e to accounts-service UAT"
+git checkout RC-COINX-7896
+gpush RC-COINX-7894-add-revoke-flag-suspend-withdraw
+git checkout -b RC-COINX-7894-add-revoke-flag-suspend-withdraw
+git commit -am "Remove metadata-reason from where in the query"
+git cherry-pick c0c8b06c18e718d4bf8014b9569086d903a56467
+gpush RC-COINX-7894-revoke-flag-suspend-withdraw
+git commit -m "Improve logs and comments"
+git checkout -b RC-COINX-7894-revoke-flag-suspend-withdraw
+docker exec -it 73647c097f18 -U postgres
+history | grep "docker exec"
+history | grep docker exec
+history | grep docker exec -it
+history | grep exec
+docker exec -it 73647c097f18 bash
+git commit -am "Improve tests when needs to revoke flags"
+git commit -m "Improve tests when needs to revoke flags"
+git commit -m "Call the new query to remove flat for first fiat deposit"
+git commit -am "Improve tests for query"
+gofmt -w mount/internal/adapters/db/account_flags_test.go mount/internal/adapters/db/account_flags.go
+git commit -m "Add new query DisableSuspendWithdawFlag"
+gofmt -w mount/internal/adapters/db/account_flags_test.go
+git checkout mount/internal/domain/models/flag.go
+git diff mount/internal/domain/models/flag.go
+git diff mount/internal/adapters/db/account_flags.go
+git commit -m "Create a new flag for auto expired reasons"
+gofmt -w mount/internal/domain/models/flag.go
+docker exec -it a362828775b9 bash
+docker exec -it 62eef8d222a7  psql -U postgres
+git switch -c RC-COINX-7896
+git switch RC-COINX-7895-withhold
+docker exec -it 45ad63cba168  psql -U postgres
+docker exec -it 5e66062dc355  psql -U postgres
+git commit -m "Deploy githsa d2ba33c (master branch) to accounts-service UAT"
+git commit -m "Deploy githsa 47a8ae9 to accounts-service UAT"
+gpush RC-COINX-7894
+git commit -am "Change query string param names"
+git commit -m "Change query string param names"
+git commit -am "Improve log messages"
+docker exec -it e037c25ab9bc psql -U postgres
+git commit -m "Move first fiat flag to models package"
+docker-compose up kafka zookepper
+docker stop (docker ps -aqf "name=code_schema-registry_1")
+docker stop (docker ps -aqf "name=code_schema_registry_1")
+docker stop (docker ps -aqf "name=cp-schema-registry")
+git commit -am "Add comments to methods to avoid linter warnings"
+git commit -am "Rename FIAT to Fiat on flags"
+rm -rf mount/internal/adapters/http/v1/accounts/flags_test.go
+git pull origin RC-COINX-7894
+gofmt -w mount/internal/adapters/http/v1/accounts/flags.go mount/internal/adapters/http/v1/accounts/handler.go mount/internal/adapters/http/v1/noauth_router.go mount/internal/domain/models/accounts.go mount/internal/domain/models/flag.go mount/internal/usecases/accounts/fixtures_test.go mount/internal/usecases/accounts/suspendwithdrawforfirstfiatdeposit.go mount/internal/usecases/accounts/suspendwithdrawforfirstfiatdeposit_test.go mount/internal/usecases/interfaces.go
+gofmt -w mount/internal/adapters/http/v1/accounts/flags.go mount/internal/adapters/http/v1/accounts/handler.go mount/internal/adapters/http/v1/noauth_router.go mount/internal/usecases/accounts/suspendwithdrawforfirstfiatdeposit.go mount/internal/usecases/interfaces.go
+git commit -m "Send kafka event to comms-service when enable suspend_withdraw for first fiat deposit"
+git commit -m "Rename usecase/handler from FIAT to Fiat"
+gofmt -w mount/internal/adapters/http/v1/accounts/flags.go
+docker exec -it e037c25ab9bc -U postgres
+git commit -am "Set value to FlagUpdateMeta.ExpireAt as 2 days from now"
+git commit -am "Run goftm" 
+gofmt -w mount/internal/usecases/accounts/fixtures_test.go mount/internal/usecases/accounts/suspendwithdrawforfirstfiatdeposit.go mount/internal/usecases/accounts/suspendwithdrawforfirstfiatdeposit_test.go
+gofmt -w /internal/domain/models/flag.go
+gofmt -w mount/internal/domain/models/accounts.go
+git commit -am "Add a test case for scenario where accountID is not valid"
+gofmt -w mount/internal/usecases/accounts/suspendwithdrawforfirstfiatdeposit.go 
+gofmt -w mount/internal/usecases/accounts/suspendwithdrawforfirstfiatdeposit_test.go
+gut s
+gofmt -w mount/internal/usecases/accounts/suspendwithdrawforfirstfiatdeposit.go
+git commit -am "Check if accountID is valid"
+git commit -m "Check if accountID is valid"
+git commit -m "Create new fixture for a valid account with suspend_withdraw flag"
+git add mount/internal/usecases/accounts/fixtures_test.go
+git commit -m "Add new flag FlagUpdateReasonFirstFIATDeposit"
+git add mount/internal/domain/models/flag.go
+gt s
+git add mount/internal/domain/models/accounts.go
+git diff mount/internal/domain/models/accounts.go
+git diff mount/internal/domain/models/accounts.go mount/internal/domain/models/flag.go mount/internal/usecases/accounts/fixtures_test.go
+gofmt -wd mount/internal/usecases/accounts/suspendwithdrawforfirstfiatdeposit_test.go
+gofmt mount/internal/usecases/accounts/suspendwithdrawforfirstfiatdeposit_test.go -w
+gofmt mount/internal/usecases/accounts/suspendwithdrawforfirstfiatdeposit.go
+docker-compose run accounts-service test internal/usecases/accounts/suspendwithdrawforfirstfiatdeposit_test.go
+docker-compose run accounts-service test 
+git switch -c RC-COINX-7894
+mix deps.compile avro_ex
+cd mount
+docker build -t 623494789560.dkr.ecr.us-east-1.amazonaws.com/balance-service:stable .
+rm /home/luiz.cezer/code/balance-service/mount/apps/schema_registry/erl_crash.dump
+./scripts/test.local.sh
+cat ../.env
+echo $APP_ENV 
+cat .env
+asdf current
+asdf list
+asdf global erlang 23.3.4
+asdf install
+asdf install elixir 1.11.4-otp-23
+
+docker-compose logs
+git checkout RC-COINX-6881-upgrade-elixir
+docker exec -it 25bffb98442a psql -U postgres
+docker exec -it 25bffb98442a bash
+git branch  -D RC-COINX-7248-refactor-pcw RC-COINX-7800
+git checkout ..
+docker-compose run cashier-service interac_etransfer_deposit_processor
+docker-compose run cashier-service shell
+docker-compose up -d kafka schema-registry zookeeper
+git pull origin RC-COINX-7800
+git switch
+docker-compose logs -f cashier-service
+docker ps --format '{{.Image}}'
+docker ps | grep accounts
+docker ps -a -q
+docker ps -a
+docker ps -q
+docker ps -aqf
+docker-compose exec accounts-service /scripts/run_setup.sh
+docker-compose logs -f accounts-service
+docker-compose up -d kafka schema-registry zookeeper accounts-service
+docker-compose up -d accounts-service
+docker-compose exec accounts-service /scripts/start.sh
+docker-compose exec accounts-service /scripts/start.sh db_init.sh
+docker-compose build cashier-service
+docker-compose build
+docker ps -aqf "name=code_cassandra_1"
+./scripts/start.sh 
+cat scripts/start.sh 
+docker-compose up -d kafka schema-registry zookeeper 
+docker system prune --all
+docker-compose --build cashier-service
+docker-compose --build
+git checkout RC-COINX-7800
+git branch -D RC-COINX-7800
+gpush RC-COINX-7771
+git commit -am "Expire set for tickets in 300 seconds"
+git commit -m "Handle with expiration as opitional for set operations"
+docker-compose exec redis redis-cli
+git commit -m "Fix domain connection to use set instead of add"
+lgit s
+git commit -am "Fix debugger message"
+git checkout mount/app/adapters/redis/client.py mount/tests/adapters/redis/test_client.py
+./run_local.sh tests -o adapters/redis/test_client.py
+git commit -m "Use add and set instead old calls to add_with_expiration"
+git add mount/tests/adapters/redis/test_client.py mount/app/adapters/redis/client.py
+git diff mount/tests/adapters/redis/test_client.py mount/app/adapters/redis/client.py
+black mount/app/adapters/redis/client.py
+git pull origin RC-COINX-7771
+black mount/app/adapters/http/v1/connections.py mount/app/adapters/redis/client.py mount/app/domain/connection.py mount/app/domain/ticket.py mount/app/usecases/connections.py mount/app/usecases/tickets.py mount/tests/adapters/http/test_connections.py mount/tests/adapters/redis/test_client.py mount/tests/domain/test_connection.py mount/tests/domain/test_ticket.py mount/tests/usecases/test_connections.py mount/tests/usecases/test_tickets.py
+git commit -m "Connection adapter use a single use case to create connection and ticket"
+git commit -m "Create connection use case handles how to get_account_id"
+git add mount/app/usecases/connections.py mount/tests/usecases/test_connections.py
+git diff mount/app/usecases/connections.py mount/tests/usecases/test_connections.py
+./run_local.sh tests -o usecases/test_connections.py
+black mount/tests/usecases/test_connections.py
+git commit -m "Fix return for ticket get_account_id"
+./run_local.sh tests -o domain/test_ticket.py
+./run_local.sh tests -o usecases/test_tickets.py
+git commit -m "TicketRepo#get returns a Ticket object"
+git commit -m "Use asyncio.sleep instead of time.sleep"
+git switch RC-COINX-7248-refactor-pcw
+git commit -am "Remove unused imports"
+git commit -m "Remove unused imports"
+black mount/app/usecases/connections.py
+git commit -m "Add tests for POST /connections with connection_id and ticket"
+git commit -m "Change Connection uuid:UUID to id:str"
+git add mount/app/domain/connection.py mount/tests/domain/test_connection.py
+black mount/tests/adapters/http/test_connections.py
+git commit -am "Add metric when create a new connection"
+git commit -am "Fix typing and adding more logs"
+git commit -m "Add usecase Connections"
+black mount/app/adapters/http/v1/connections.py mount/app/domain/connection.py mount/app/usecases/tickets.py mount/tests/adapters/http/test_connections.py mount/tests/domain/test_connection.py mount/app/usecases/connections.py mount/tests/usecases/test_connections.py
+git commit -m "Create the get_account_id usecase method"
+black mount/tests/usecases/test_tickets.py
+./run_local.sh tests -o usecases/test_tickets.py:58
+./run_local.sh tests -o usecases/test_tickets.py:test_get_account_id_with_account_id_returns_account_id
+docker-compose up -d schema-registry
+git commit -m "WIP: get_account_by by ticket_uuid"
+./run_local.sh tests -o adapters/redis/client.py
+black mount/app/usecases/tickets.py
+git add
+git add mount/app/adapters/redis/client.py mount/tests/domain/test_ticket.py
+git commit -m "Add #get from key-value on redis_client"
+git checkout RC-COINX-7771
+git branch -D RC-COINX-7770-ticket-endpoint
+gpush RC-COINX-7770-ticket-endpoint
+git commit -am "Adding account_id as keyword argument"
+./run_local.sh tests 
+black mount/app/adapters/http/responses.py mount/app/adapters/http/v1/subscriptions.py mount/app/commons/metrics/backend.py mount/app/usecases/tickets.py mount/app/workers/account_balance_updates.py
+git checkout -b RC-COINX-7771
+git commit -am "Remove import"
+git commit -m "Remove import"
+git checkout RC-COINX-7770-ticket-endpoint
+git commit -m "Create the Connection domain"
+./run_local.sh tests -o domain/test_connection.py
+git commit -am "Improve is_expired coverage"
+git branch -D RC-COINX-7770
+git commit -m "Set ticket as UUID for Ticket dataclass"
+git commit -m "Change sadd to add when add a ticket"
+git add mount/app/adapters/redis/client.py
+black mount/app/adapters/redis/client.py mount/app/domain/ticket.py mount/app/usecases/tickets.py mount/tests/domain/test_ticket.py
+git commit -m "Add logic get account_id value or Anonymous"
+docker-compose up redis
+docker-compose exec redis
+git commit -m "Review changes: using Ticket dataclass fix minor issues"
+black mount/app/domain/ticket.py mount/tests/domain/test_ticket.py
+black mount/app/domain/ticket.py
+black mount/tests/adapters/redis/test_client.py
+git commit -am "Move REDIS_TTL_EXPIRATION_IN_SECONDS to settings file"
+git branch  -D RC-COINX-7063-etransfer-worker-part-III RC-COINX-7090-add-label-to-duplicate-email RC-COINX-7271-command-to-send-etransfer-email
+git commit -am "Docstring fixes"
+git commit -m "Skip domain/ticket test because it uses redis under the hood"
+black mount/tests/domain/test_ticket.py
+git commit -m "Create method to handle account_id or anonymous"
+git commit -am "Fix log message"
+git commit -m "Change account_id to be optional query string instead path params"
+black mount/tests/adapters/http/test_tickets.py
+./run_local.sh tests -o adapters/http/v1/tickets.py
+git commit -am "Remove connection_id from endpoint args"
+git commit -m "Create apdaters/v1/tickets"
+git commit -m "Convert account_id to str in usecase"
+git add mount/tests/usecases/test_tickets.py mount/app/usecases/tickets.py
+git diff mount/tests/usecases/test_tickets.py mount/app/usecases/tickets.py
+git diff mount/app/usecases/tickets.py
+docker ps | grep pubsub
+black mount/app/adapters/http/v1/tickets.py
+gpull; git checkout RC-COINX-7271-command-to-send-etransfer-email
+git checkout RC-COINX-7271-command-to-send-etransfer-email
+./run_local.sh tests -o v1/tickets.py
+./run_local.sh tests -o http/v1/tickets.py
+git commit -m "Ticket use case return string with ticket UUID"
+./run_local.sh tests -o usecases/test_ticket.py
+black mount/app/usecases/ticket.py
+git commit -m "Create usecase/ticket to store ticket"
+git commit -m "Rename method from add_with_ttl to add_with_expiration"
+git diff mount/app/adapters/redis/client.py
+black mount/tests/usecases/test_ticket.py
+black mount/tests/usecases/test_ticket.py mount/app/usecases/ticket.py
+git commit -m "Create TicketRepo"
+git commit -m "Move redis_client to general conftest"
+git add mount/tests/adapters/redis/conftest.py mount/tests/conftest.py
+black mount/tests/domain/test_ticket.py mount/app/domain/ticket.py mount/app/adapters/redis/client.py  mount/tests/adapters/redis/test_client.py
+git commit -m "Add add_with_ttl method to redis client"
+GIT S
+LGIT S
+git checkout -b RC-COINX-7770-ticket-endpoint
+
+git checkout RC-COINX-7770-ticket-endpoint
+
+docker-compose up -d redis
+gpush RC-COINX-7770 --force
+gpush RC-COINX-7770
+gpush
+git commit -am "Rename add->set_add, remove->set_remove, list->set_list"
+black mount/app/adapters/redis/client.py mount/app/domain/subscription.py mount/tests/adapters/redis/test_client.py mount/tests/usecases/test_subscriptions.py
+git reset --hard 64c2e7970b183fee4ca4cba213339fa1aacba2f0
+docker exec -it (docker ps -aqf "name=redis") bash
+rm mount/tests/domain/test_ticket.py mount/app/domain/ticket.py mount/tests/usecases/test_tickets.py
+git commit -am "Fix typo from ticker to ticket"
+git commit -m "Add basic enpoint structure"
+./run_local.sh tests -o adapters/http/test_tickers.py
+black mount/app/adapters/http/v1/tickers.py mount/tests/adapters/http/test_tickers.py
+/usr/bin/python /home/luiz.cezer/.vscode/extensions/ms-python.python-2021.4.765268190/pythonFiles/pyvsc-run-isolated.py pip install -U black --user
+git switch -c RC-COINX-7770
+git branch -D RC-COINX-7753
+omf reload
+omf install clearance
+rm ~/.config/fish/functions/fish_prompt.fish
+omf doctor 
+omf remove clearance
+omf version
+omf help
+omf theme ays
+omf theme clearance 
+omf theme eclm
+omf theme clearance
+omf clearance
+git checkout RC-COINX-7655-get-balances-using-timestamp
+pubu
+./scripts/run_unit_tests.local.sh
+docker-compose up balance-sheet-ledger
+git checkout RC-COINX-7731-ftx-adapter
+cd ~/code/balance-sheet-ledger/
+iex -S mix
+docker-compose exec cassandra cqlsh -u cassandra
+docker-compose logs -f cassandra
+gpush RC-COINX-7753
+git branch -m RC-COINX-7729-get-data-from-market-data-service RC-COINX-7753
+rm mount/app/workers/price_history_updates.py
+cd ~/code/market-data-service/
+pubsub
+cd ~/code/pubsub-service/
+docker ps | grep cassandra
+docker-compose exec market-data-service /scripts/run_price_history_aggregator.sh 1_min
+./run_local.sh price-history-update-processor
+./run_local.sh account-balance-update-processor
+git push origin RC-COINX-7729-get-data-from-market-data-service
+git push origin --delete COINX-7729-get-data-from-market-data-service
+git branch -m COINX-7729-get-data-from-market-data-service RC-COINX-7729-get-data-from-market-data-service
+docker-compose exec market-data-service /scripts/run_tests_local.sh
+docker-compose exec market-data-service /scripts/run_trade_history_processor.sh
+docker-compose exec market-data-service /scripts/run_liquidity_taker_processor.sh
+docker-compose exec market-data-service /scripts/run_fix_drop_copy_by_symbol_processor.sh
+docker-compose exec market-data-service /scripts/run_fix_drop_copy_processor.sh
+docker-compose exec market-data-service /scripts/run_order_book_processor.sh
+docker ps | grep schema
+docker-compose up market-data-service
+gpush COINX-7729-get-data-from-market-data-service
+git commit -m "Black format"
+black mount/app/usecases/subscriptions.py mount/tests/usecases/test_subscriptions.py
+git commit -m "Decremente when clear subscriptions"
+docker ps | grep kafka
+docker ps | grep zoo
+docker-compose logs -f statsd
+docker-compose logs -f statds
+docker-compose up -d statsd
+docker-compose up statsd
+docker ps | grep stats
+docker ps | grep st
+docker exec -it (docker ps -aqf "name=kafka") bash
+omf doctor
+omf theme bobthefish
+omf install eclm
+omf eclm
+omf theme default
+omf install bobthefish
+omf install ays
+git switch -c COINX-7729-get-data-from-market-data-service
+cd market-data-service/
+git branch -D RC-COINX-7578-add-metrics-to-use-cases RC-COINX-7579
+black mount/tests/usecases/test_subscriptions.py
+apm install python-debugger language-python
+fish help
+fish
+gpush RC-COINX-7578-add-metrics-to-use-cases
+git commit -m "Rename value to amount to follow prometheus_client namming convention"
+git push origin RC-COINX-7578-add-metrics-to-use-cases
+git pull origin RC-COINX-7578-add-metrics-to-use-cases
+git commit -m "Adding tests to count send message"
+./run_local.sh tests -o usecases/test_subscriptions.py
+git commit -am "Adding tests for subs/unsubs from channel"
+git commit -am "Add test to assert metric being called by http/connections"
+docker network ls
+docker-compose up -d cashier-service
+history | grep aqf
+git commit -am "Remove duplicated methods"
+git commit -m "Remove duplicated methods"
+black mount/app/commons/metrics/__init__.py
+git commit -m "Add metrics to count connections, channel and add value to counter"
+black mount/app/commons/metrics/prometheus_backend.py
+black mount/app/commons/metrics/backend.py
+git switch RC-COINX-7578-add-metrics-to-use-cases
+git checkout RC-COINX-7578-add-metrics-to-use-cases
+git branch -D RC-COINX-7578-add-metrics-to-use-cases
+git branch  -D RC-COINX-7578-add-metrics-to-use-cases
+git checkout mount/app/commons/metrics/backend.py mount/app/commons/metrics/prometheus_backend.py
+python gather.py 
+python3 run gather.py
+python3 gather.py
+cd ~/Desktop/
+git commit -m "Inc/Dec metric for subscriptions to a given channel"
+git commit -m "Inc/Dec metric when new connection and remove connection happen"
+git commit -m "Create methods to gauge metric up/down with value"
+git add mount/app/commons/metrics/__init__.py mount/app/commons/metrics/backend.py mount/app/commons/metrics/prometheus_backend.py
+git diff mount/app/commons/metrics/__init__.py mount/app/commons/metrics/backend.py mount/app/commons/metrics/prometheus_backend.py
+git push origin RC-COINX-7578-add-metrics-to-use-cases --force
+git reset --hard 5ac545d5c3637fdfe9ec287be1a06a51b23e5122
+git commit -m "Add metric to post /connected endpoint"
+ls config/
+docker-compose up
+http -v DELETE localhost:4242/v1/connections connection-id:test_conn
+http -v POST localhost:4242/v1/subscriptions connection-id:test_conn action=subscribe channel=testing
+sudo chown luiz.cezer:luiz.cezer config
+git fetch 
+doff; ./run_local.sh api
+git pull origin RC-COINX-7364
+git branch -D RC-COINX-7367-kafka-worker
+git checkout RC-COINX-7579
+git push origin RC-COINX-7364 --force
+git push origin RC-COINX-7364
+git push RC-COINX-7364
+git commit -m "Add account-balance-update-processor to compose"
+history | grep account
+gpush RC-COINX-7367-kafka-worker
+git pull origin RC-COINX-7367-kafka-worker
+git commit -m "Add system to EventType to enum"
+git commit -m "Add db transaction to send_message and mark as processed"
+black mount/app/workers/account_balance_updates.py
+git add run_local.sh
+git diff run_local.sh
+git checkout mount/database/versions/2021_04_07_10_24_43_create_workers_idempotency_table.py
+docker exec -it (docker ps -aqf "name=postgres") bash
+history | grep "aqf"
+history | grep "-aqf"
+history | grep -aq
+history | grep -aqf
+./run_local.sh account_balance_update_processor
+history | grep balance_service
+git commit -m "Fix log message and command to run processor"
+rm mount/tests/workers/test_account_balance_updates.py
+npm install --global gsts
+saml2aws --configure
+git commit -m "Add idempotency_token domain/usecase"
+git add . mount/app/domain/worker_idempotency.py mount/app/usecases/idempotency_tokens.py mount/tests/usecases/test_idempotency_tokens.py
+black mount/app/commons/settings.py mount/app/usecases/subscriptions.py mount/app/workers/account_balance_updates.py mount/tests/workers/test_account_balance_updates.py mount/app/domain/worker_idempotency.py mount/app/usecases/idempotency_tokens.py mount/tests/usecases/test_idempotency_tokens.py
+git commit -m "Remove unused import"
+black mount/app/workers/account_balance_updates.py mount/app/domain/message.py mount/tests/workers/test_account_balance_updates.py
+black 
+mix black
+git commit -am "Add comment"
+git commit -m "Remove enum"
+git commit -m "Add unit test"
+./run_local.sh account_balance_update
+black mount/app/workers/account_balance_updates.py mount/tests/workers/test_account_balance_updates.py
+black mount/tests/workers/test_account_balance_updates.py
+git commit -am "Create message with data from kafka topic"
+atom ,.
+cashiser
+git commit -am "Update topic name"
+./run_local.sh balance_service_processor
+history | grep balance-service
+history | grep balance
+history | grep -w "aum"
+history | grep -w "ledger"
+history | grep -w "ledget"
+cd ~/code/balance-service/
+gpush RC-COINX-7367-kafka-worker --force
+git commit -m "Build message and send_message_to_channel"
+git commit -m "Change variable name and add logs"
+git add mount/app/usecases/subscriptions.py mount/app/domain/subscription.py
+git diff mount/app/usecases/subscriptions.py mount/app/domain/subscription.py
+git checkout mount/database/versions/2021_04_07_10_24_43_create_workers_idempotency_table.py mount/cmds/websocket_cli.py
+docker ps | grep redis
+docker exec -it 780dfe1cba32 bash
+docker ps | grep post
+docker exec -it (docker ps -aqf "name=code_redis_1") bash
+docker exec -it (docker ps -aqf "name=pubsub_redis_1") bash
+history | grep -w "redis"
+history | grep -w "*redis"
+history | grep -w *redis
+history | grep -w redis
+history | grep -wd redis
+docker exec -it 986e9b468afc bash
+docker exec -it (docker ps -aqf "name=pubsub-service") bash
+docker exec -it (docker ps -aqf "name=code_pusbub-service") bash
+black mount/app/workers/balance_service.py
+black mount/app/usecases/subscriptions.py
+git push origin RC-COINX-7367-kafka-worker --force
+git commit -m "Basic worker to consume data from statuses topic"
+git commit -m "Add balance_service_processor to run"
+git add run_local.sh scripts/start.sh
+git diff run_local.sh scripts/start.sh
+git commit -m "Fix settings file"
+git add mount/app/commons/settings.py 
+git diff mount/app/commons/settings.py 
+docker-compose logs -f balance-service
+docker exec -it (docker ps -aqf "name=code_kafka") bash
+git checkout scripts/kafka_bootstrap.sh
+git diff scripts/kafka_bootstrap.sh
+l
+./run_local.sh start
+docker-compose up -d kafka schema-registry cassandra elasticsearch zookeeper statsd balance-service
+git commit -m "Set consumer group and topic / add redis to run on tests"
+git checkout RC-COINX-7367-kafka-worker
+git checkout cloudformation-apigateway-template.yaml
+cd pubsub-service/
+rm -rf ngrok-stable-linux-amd64.zip
+./ngrok http 4242
+sudo ufw status
+sudo firewall-cmd --state
+curl -v http://765db4c45d27.ngrok.io/health
+ls -al ~/.aws/config 
+ls ~/.aws/config 
+curl -v http://f42b769051d0.ngrok.io/health
+aws --profile platform cloudformation create-stack --stack-name PubSubWebsocket --template-body file:///home/luiz.cezer/code/pubsub-service/cloudformation-apigateway-template.yaml --capabilities CAPABILITY_AUTO_EXPAND
+cd ws
+mix new ws --module WS --sup
+curl -v http://3c3d188c5b6a.ngrok.io/health
+curl -v http://3c3d188c5b6a.ngrok.io
+aws configure --profile platform
+bash
+docker exec -it (docker ps -aqf "name=code_pubsub-service_1") bash
+curl -v http://696752006ac5.ngrok.io/health
+curl -v https://51f76d5326a8.ngrok.io/health
+curl -v http://51f76d5326a8.ngrok.io/health
+curl -vv http://51f76d5326a8.ngrok.io/health
+./ngrok http 8080
+./ngrok http
+man docker | grep p
+man docker | grep -ps
+man docker | grep ps
+man docker
+help docker
+help docker ps
+docker ps -af
+docker psa
+./run_local.sh api; ./run_local.sh tests
+docker rmi -f 98ef935bbee8
+docker-compose upschema-registry
+docker ps | grep registry
+curl -v http://b3a32e6c7c6d.ngrok.io/health
+curl -v localhost:4040/health
+curl -v localhost:4242/health
+curl -v localhost:80/health
+./ngrok http 80
+cd apps/
+git commit -m "WIP: add consumer group and topics"
+docker exec -it (docker ps -aqf "name=code_kafka_1") bash
+git branch -D RC-COINX-7206-eth-address-flow-change
+git branch -D RC-COINX-7368 RC-COINX-7480
+git checkout RC-COINX-7090-add-label-to-duplicate-email
+gpush RC-COINX-7368
+git commit -m "Fix conftests and redis_client"
+black mount/tests/adapters/redis/conftest.py mount/tests/conftest.py mount/tests/usecases/test_subscriptions.py
+black mount/tests/adapters/redis/conftest.py mount/tests/conftest.py
+git commit -m "Adjust tests"
+git pull origin RC-COINX-7368
+git commit -m "Clean up code and try to test callt o aws.send_message, still failing"
+black mount/tests/conftest.py
+git checkout RC-COINX-7368
+docker-compose exec kafka bash
+docker exec -it (docker ps -aqf "name=zookeeper_1") bash
+docker exec -it (docker ps -aqf "name=pubsub-service_1") bash
+docker exec -it (docker ps -aqf "name=kafka_1") bash
+echo $KAFKA_HOME
+git commit -am "Change chain to pubsub on settings"
+git switch -c RC-COINX-7367-kafka-worker
+curl -X POST -v http://465ea18bb30f.ngrok.io/v1/connections
+curl -X POST http://465ea18bb30f.ngrok.io/v1/connections
+curl http://465ea18bb30f.ngrok.io/v1/connections
+curl -v https://9d0wwaqvqe.execute-api.us-east-2.amazonaws.com/local
+curl https://9d0wwaqvqe.execute-api.us-east-2.amazonaws.com/local
+curl http://9d0wwaqvqe.execute-api.us-east-2.amazonaws.com/local
+curl http://465ea18bb30f.ngrok.io/health
+aws cloudformation create-stack --stack-name PubSubWebsocket --template-body file:///home/luiz.cezer/code/pubsub-service/cloudformation-apigateway-template.yaml --capabilities CAPABILITY_AUTO_EXPAND
+sudo nano ~/.aws/config 
+./ngrok help
+./ngrok domains
+./ngrok domain
+./ngrok status
+./ngrok authtoken 1r4pXnRyhJSdOXE1BQZyXRPXmh7_PKjkkHg2Fb2KpvJrZwaG
+unzip ngrok-stable-linux-amd64.zip 
+mv ngrok-stable-linux-amd64.zip ~/code/
+sudo rm code
+rm code
+cd /
+cd /code
+sudo ls /opt
+sudo mv /opt/ngrok-stable-linux-amd64.zip /code
+ls /opt/
+sudo ls
+cd /opt/
+sudo mv ngrok-stable-linux-amd64.zip /opt/
+git branch -D RC-COINX-7479-create-redis-adapter
+git checkout RC-COINX-7480
+cd 
+git pull origin RC-COINX-7479-create-redis-adapter
+gpush RC-COINX-7479-create-redis-adapter
+git commit -m "Fix list test"
+black mount/app/adapters/redis/client.py mount/tests/adapters/redis/test_client.py
+git commit -m "Remove bitcoinlib"
+git add Pipfile Pipfile.lock
+git diff Pipfile Pipfile.lock
+pipenv uninstall bitcoinlib
+git commit -am "Remove fireblocks references on code"
+git commit -am "Fix typo"
+git commit -m "Add shutdown listener to redis"
+git commit -am "Set min/max size to pool"
+git push origin RC-COINX-7479-create-redis-adapter --force
+git checkout RC-COINX-7479-create-redis-adapter
+git commit -m "Build redis url with HOST:PORT and remove old config variable"
+pipenv shell python3
+git commit -m "Add redis to be part of RequestContext"
+git commit -am "Add more redis settings"
+git commit -am "Simplify map to return parsed data from redis"
+git commit -m "Use app.commons.json"
+git commit -m "Avoid doing json.loads with empty return from smembers"
+git commit -am "Serialize/Deserialize to JSON"
+git commit -am "Changes to run RedisClient tests"
+git push origin RC-COINX-7479-create-redis-adapter
+git commit -m "Remove fakeredis"
+pipenv uninstall fakeredis
+docker exec -it 7de850459c51 bash
+docker-compose up pubsub-service
+docker run -p 6379:6379 -d redis:5
+docker exec -it fd1a1cfc0647 bash
+docker exec -it fd1a1cfc0647 bash python
+docker exec -it fd1a1cfc0647 bash python3
+python3 mount/app/adapters/redis/client.py
+pipenv shell run mount/app/adapters/redis/client.py
+python run mount/app/adapters/redis/client.py
+git diff mount/app/adapters/redis/client.py mount/tests/adapters/redis/test_client.py
+pipenv shell
+python3 runexit
+pipenv install fakeredis
+git commit -am "Add basic tests"
+git commit -m "Add basic tests"
+./run_local.sh build; ./run_local.sh tests
+git commit -m "WIP redis adapter"
+pipenv uninstall mockaioredis
+pipenv uniinstall mockaioredis
+./run_local.sh tests tests/adapters/redis/test_client.py
+./run_local.sh tests mount/tests/adapters/redis/test_client.py
+./scripts/run_unit_tests.sh
+pipenv lock
+pipenv install mockaioredis
+docker-compose run --rm --no-deps -e APP_ENV=unittest pubsub-service tests mount/tests/adapters/redis/test_client.py
+docker-compose run --rm --no-deps -e APP_ENV=unittest pubsub-service mount/tests/adapters/redis/test_client.py
+docker-compose run --rm --no-deps -e APP_ENV=unittest pubsub-service tests tests/adapters/redis/test_client.py
+vvpytest mount/tests/adapters/redis/test_client.py
+apm install atom-pair
+sudo dpkg -i code_1.55.0-1617120720_amd64.deb
+git commit -m "Comment /seeds line on dockerfile"
+git add Dockerfile
+git commit -m "Add aioredis dep"
+pipenv install aioredis
+pip install aioredis
+git commit -m "Deploy balance-service 6a328f8 to UAT"
+git commit -m "Deploy balance-service f23effc to UAT"
+docker-compose pull pubsub-service
+git checkout -b RC-COINX-7479-create-redis-adapter
+
+
+./run_local.sh build --no-cache
+rm -rf kafka-docker-compose
+docker-compose up -d
+cd kafka-docker-compose/
+git clone https://github.com/codingharbour/kafka-docker-compose.git
+git clone git@github.com:coinsquarex/pubsub-service.git
+rm -rf pubsub-service/
+docker images | grep pubsub-service:stable
+docker images | grep 623494789560
+git checkout RC-COINX-7364
+cat Jenkinsfile 
+git checkout master
+history | grep -w main
+man grep
+history | grep "main"
+history | grep main
+git checkout main
+cd ~/code/admin-frontend/
+git commit -m "Deploy cashier 43a7361"
+cd  ~/code/k8s-resources/
+git pull origin RC-COINX-7206-eth-address-flow-change
+git switch RC-COINX-7206-eth-address-flow-change
+gpush RC-COINX-7164-cassandra-metric
+gpush RC-COINX-7164-add-cassandra-ms-health-check
+git commit -am "Remove unused mock"
+git commit -am "Adding CASSANDRA_HEALTH_CHECK_MILLISECONDS_INTERVAL"
+git checkout -b RC-COINX-7164-add-cassandra-ms-health-check
+git commit -am "Fix .env"
+sudo nano .env
+git commit -am "Run mix format"
+mix format apps/balance_api/test/balance_api/metrics/cassandra_health_check_test.exs
+mix format apps/balance_api/lib/balance_api/metrics/cassandra_health_check.ex
+mix format mount/apps/balance_api/lib/balance_api/metrics/cassandra_health_check.ex
+docker stop (docker ps -aqf "name=code_cassandra_1")
+gpush RC-COINX-7164-cassandra-metric --force
+git pull origin RC-COINX-7164-cassandra-metric
+git commit -am "Fix log messages add name to process"
+rm -rf _build/
+mix test apps/balance_api/test/balance_api/metrics/cassandra_health_check_test.exs
+mix test test/balance_api/metrics/cassandra_health_check_test.exs
+git commit -m "Move mock to correct place"
+git commit -m "Add variable to releases"
+git add config/releases.exs
+sudo docker build -t 623494789560.dkr.ecr.us-east-1.amazonaws.com/balance-service:stable .
+docker-compose pull balance-service
+docker rmi -f 6cbffd15b6e4
+docker images | grep balance
+git add ../Jenkinsfile
+git add ../.env ../Jenkinsfile
+git commit -m "Using mox to mock AccountManager"
+git log -p 2ce34a14affd0cde7f3905fc067eb4626945cf22
+git push origin RC-COINX-7164-cassandra-metric
+docker stop (docker ps -aqf "name=code_balance-service_1")
+mix test mount/apps/balance_api/test/balance_api/metrics/cassandra_health_check_test.exs
+mix test --only hc
+mix test --only stuff
+mix test --only cassandra
+cd ../../../
+mix test cassandra_health_check_test.exs
+cd metrics/
+cd balance_api
+cd test
+cd apps/balance_api/
+./mount/scripts/test.local.sh balance_api
+./mount/scripts/test.local.sh
+./mount/scripts/test.local.sh --only cassandra
+./mount/scripts/test.local.sh balance_api/metrics/cassandra_health_check_test.exs
+./mount/scripts/test.local.sh test/balance_api/metrics/cassandra_health_check_test.exs
+./mount/scripts/test.local.sh apps/balance_api/test/balance_api/metrics/cassandra_health_check_test.exs
+docker-compose exec balance-service bash
+git commit -m "Start adding tests"
+./scripts/iex.local.sh balance_api
+git commit -am "Set module variables with cassandra up/down values"
+git commit -m "Set module variables with cassandra up/down values"
+git commit -m "Format and use interval as env var"
+git commit -m "Set cassandra HC interval as env var"
+git add ../.env ../Jenkinsfile apps/balance_api/lib/balance_api/config.ex config/config.exs
+git commit -am "Format and add doc"
+mix format apps/util/lib/util/metrics.ex
+git commit -m "Improve health check poller code with logs"
+git commit -m "Send telemetrex data when cassandra is down"
+docerk ps
+docker stop fbf4fc4efc22
+git checkout mount/apps/account_manager/lib/account_manager/accounts.ex
+git diff mount/apps/account_manager/lib/account_manager/accounts.ex
+atom 
+docker stop 66e4d5d29685
+docker stop 0bbda96cc998
+git checkout RC-COINX-7164-cassandra-metric
+git checkout RC-COINX-7164-cassandra-metric-down
+dofff
+docker stop
+docker stop eb3d9e11381e
+docker stop 9964716fb0c6
+docker stop 58d9df974d45
+git checkout RC-COINX-7206-eth-address-flow-change
+git commit -am "WIP #2"
+docker stop 4660850677a1
+git commit -am "WIP"
+docker stop a8b9b8cb6c2f
+git checkout -b RC-COINX-7164-cassandra-metric-down
+git branch -D RC-COINX-7304-improve-kafka-consumer
+cd pinnacle/
+docker stop b9d77fa3c398
+docker stop 49c207ce0173
+docker-compose up -d balance-service
+docker stop 49a753fa325f
+iex --sname balance_api --cookie master --remsh 7e1eccda6f1a4536f9b02d5ea581220a3d85d2b1298a153d439bfa5f3382628b
+iex --sname balance_api --cookie local --remsh 7e1eccda6f1a4536f9b02d5ea581220a3d85d2b1298a153d439bfa5f3382628b
+docker ps -a --no-trunc -q
+iex --sname balance_api --cookie local --remsh 7e1eccda6f1a
+iex --sname balance_api --remsh 7e1eccda6f1a
+iex --sname balance_api --cookie monster --remsh 7e1eccda6f1a
+docker exec -it 7e1eccda6f1a bash
+docker exec -it 7e1eccda6f1a iex
+docker exec -it 7e1eccda6f1a bash iex
+docker stop 876688e80b52
+docker stop 7e1eccda6f1a
+iex -S mix phx.server
+docker-compose up -d kafka schema-registry cassandra elasticsearch statsd
+docker-compose up schema-registry cassandra elasticsearch zookeeper
+scripts/start_no_docker.sh balance_api
+scripts/start_no_docker.sh transaction_aggregator
+scripts/start_no_docker.sh aum_processor
+scripts/start_no_docker.sh ledger_processor
+docker exec -it b2c2fa9ebcab bash
+docker-compose exec balance-service scripts/start.sh aum_processor
+iex -S
+docker stop b2c2fa9ebcab
+git commit -am "Add prometheus_ex as dependency"
+history | grep "docker-compose up"
+history | grep docker-compose up
+git switch -c RC-COINX-7164-cassandra-metric
+ǵpull
+git push origin master
+git commit -m "Add kafka-python dep"
+pipenv run pytest
+pipenv lock --pre
+pipenv graph
+pipenv install --skip-lock
+pipenv install kafka-python
+pip install kafka-python
+cd ~/code/currency-quotation/
+git push origin pubsub-test
+git pull origin pubsub-test
+git commit -am "Get websocket response"
+python client.py
+pip uninstall websocket
+git diff Pipfile.lock 
+git diff Pipfile 
+pipenv -h
+pip install websocket
+python3 client.py
+python server.py
+pip freeze | grep socket
+pip -V
+git clone git@github.com:coinsquarex/pinnacle.git
+python3 client.py 
+python client.py 
+pipenv run server.py
+pipenv server.py
+sudo apt install peek
+sudo apt update
+sudo add-apt-repository ppa:peek-developers/stable
+pipenv run client.py
+pipenv client.py
+cat Pipfile
+pipenv shell run server.py
+python3 server.py
+pip run server.py
+pipenv install websockets
+pip install websockets
+python server.py 
+pipenv install websocket
+python run server.py 
+git checkout pubsub-test
+git fetch
+history | grep ledger
+iex --name localhost@10102
+iex --name locahost@127.0.0.1
+epmd -names
+docker exec -it 2c4e168c1635 bash
+sudo apt-get -y install build-essential autoconf m4 libncurses5-dev libwxgtk3.0-gtk3-dev libgl1-mesa-dev libglu1-mesa-dev libpng-dev libssh-dev unixodbc-dev xsltproc fop libxml2-utils libncurses-dev openjdk-11-jdk
+apt-get -y install build-essential autoconf m4 libncurses5-dev libwxgtk3.0-gtk3-dev libgl1-mesa-dev libglu1-mesa-dev libpng-dev libssh-dev unixodbc-dev xsltproc fop libxml2-utils libncurses-dev openjdk-11-jdk
+docker exec -it 2c4e168c1635 bash iex
+docker-compose up -d kafka schema-registry cassandra elasticsearch statsd
+
+history | grep "docker-compose up -d"
+history | grep docker-compose up -d
+history | grep docker-compose
+asdf
+asdf uninstall elixir 1.10.3-otp-22
+asdf uninstall erlang 22.3.4.5
+asdf uninstall elixir 1.10.3
+wx-config --version
+docker exec -it f1fe6174a74b bash
+docker exec -it 01aeba337965 bash
+docker exec -it 01aeba337965
+ls -alt
+sudo chown luiz.cezer:luiz.cezer _build/ deps/
+echo $MIX_ENV
+cat .tool-versions 
+docker-compose up elasticsearch
+ls -al | grep elasticsearch
+sudo chmod -R 777 elasticsearch
+ls -al | grep elasticsearch/
+git commit -m "Deployment of balance-service"
+cd k8s-resources/
+git clone git@github.com:coinsquarex/k8s-resources.git
+rm -rf k8s-resources/
+doff; docker-compose up cashiser-service
+rm mix.lock
+ls deps/
+mix deps.clean
+sudo mix deps.get
+asdf install elixir 1.10.3-otp-22
+asdf install 1.10.3-otp-22
+mix run "k"
+./scripts/start_no_docker.sh balance_api
+./mount/scripts/start_no_docker.sh balance_api
+echo MX_ENV
+docker exec -it 3384dc652e8c mix test
+docker exec -it 3384dc652e8c bash mix test
+docker exec -it 3384dc652e8c mix deps.get
+docker exec -it 3384dc652e8c bash mix deps.get
+exut
+mount/scripts/start_no_docker.sh balance_api
+docker-compose up kafka schema-registry cassandra elasticsearch
+gpush RC-COINX-7304-improve-kafka-consumer
+git commit -am "Testing with Stream"
+git checkout RC-COINX-7304-improve-kafka-consumer
+docker-compose up schema-registry cassandra elasticsearch zookepeer
+docker-compose exec balance-service mix deps.compile
+docker-compose exec balance-service mix deps.get
+docker-loing
+vvpytest mount/tests/adapters/gmail/test_gmail_event_dispatcher.py::test_gmail_event_dispatcher_start_and_dispatch_email_with_success
+docker exec -it 8c1a40b35faa bash
+cat nano ~/.config/fish/config.fish | grep vvpytest
+docker exec -it 8c1a40b35faa
+pipenv run pytest mount/tests/usecases/test_withdrawal_submissions.py::test_submit_withdrawal_fireblocks_call_fails_not_exceeded_retries
+git pull origin RC-COINX-7274-fix-retrying-txns-forever
+pip install cytoolzexit
+vvpytest mount/tests/usecases/test_withdrawal_retries.py
+Bash
+oo
+vvpytest mount/tests/adapters/gmail/test_gmail_event_dispatcher.py
+gpush RC-COINX-7063-etransfer-worker-part-III
+git commit -m "Remove ctx from _should_dispatch_email arg"
+git add -p
+git checkout RC-COINX-7063-etransfer-worker-part-III
+pipenv install cytoolz
+docker-compose pull chain-service
+vvpytest mount/tests/usecases/test_withdrawal_submissions.py::test_submit_withdrawal_fireblocks_call_fails
+git switch RC-COINX-7274-fix-retrying-txns-forever
+git checkout RC-COINX-7274-fix-retrying-txns-forever
+gpull; git switch RC-COINX-7274-fix-retrying-txns-forever
+git commit -am "Fix call to _dispatch with wrong num of args and add more logs"
+git difff
+rm -rf .github0/
+git rm -rf.github0/
+apm install pyl
+apm uninstall pylama
+apm uninstall pylava
+git checkout -b RC-COINX-7063-etransfer-worker-part-III
+git reset --hard 6845c0e3
+gpull; atom .
+whereis python3
+whereis python
+pip install jedi
+whereis pylava
+whereis jedi
+pip install radon
+pip install pylava
+vvpytest mount/tests/adapters/http/v1/accounts/test_transactions.py
+./scripts/run_unit_tests.local.sh 
+gpulll
+balance-service
+gpush RC-COINX-7090-add-label-to-duplicate-email --force
+git commit -am "Force rebuild"
+git commit -m "Force rebuild"
+git branch  -D RC-COINX-7063-fix-etransfer-worker-crash RC-COINX-7063-avoid-etransfer-worker-crash RC-COINX-7063-part-II
+apm install python-autopep8
+pip install autopep8
+git checkout RC-COINX-7063-fix-etransfer-worker-crash
+git branch -D RC-COINX-7231-race-condition-wd RC-COINX-7063-revert
+apm install autocomplete-python
+pip install flake8_polyfill
+apm install linter-flake8
+pip install flake8
+gpull; git checkout RC-COINX-7231-race-condition-wd
+gpush RC-COINX-7063-fix-etransfer-worker-crash
+git commit -m "Fix file name"
+gpush RC-COINX-7063-fix-etransfer-worker-crash --force
+git commit -m "Fix wrong imports"
+python run.py 
+git reset --hard efe69abbec9c2df7dd1f44b387c1a2fddec1fb22
+nano run.py 
+git commit -m "Add example"
+cat run.py 
+cd currency-quotation
+vvpytest mount/tests/usecases/test_interac_email_parser.py
+git commit -m "Initialize GMailConnector on worker instead on dispatcher"
+git git s
+git checkout -b RC-COINX-7063-fix-etransfer-worker-crash
+gpush RC-COINX-7063-part-II --force
+git merge RC-COINX-7063-avoid-etransfer-worker-crash
+git checkout RC-COINX-7063-part-II
+git revert -m 1 0966dfb5cb82d2a0effa76f39f23af523a4717df
+git reset --hard 2ba6815ba99343ab95c7512f1e93533d7e404f87
+git checkout RC-COINX-7063-avoid-etransfer-worker-crash
+gpush RC-COINX-7063-avoid-etransfer-worker-crash
+git commit -m "Blank line"
+git checkout -b RC-COINX-7063-avoid-etransfer-worker-crash
+gpush RC-COINX-7063-part-II
+git branch -D RC-COINX-7063-part-III
+gpush RC-COINX-7063-revert
+git switch -c RC-COINX-7063-revert
+git switch RC-COINX-7063-revert
+git checkout -b RC-COINX-7063-part-III
+git commit -m "Merge with master and fix tests"
+git commit -m "Add test to Credentials file to assert is loading properly"
+vvpytest mount/tests/domain/test_credentials.py
+git commit -m "Fix rebase"
+git ad d.
+git switch RC-COINX-7063-part-II
+git commit -am "Import settings"
+gpush RC-COINX-7090-add-label-to-duplicate-email
+git commit -m "Rename label to fund-fail-duplicate"
+vvpytest mount/tests/adapters/gmail/test_gmail_labels.py
+git commit -m "Use mocker to force return from _dispatch method"
+vvpytest mount/tests/adapters/gmail/test_gmail_event_dispatcher.py::test_gmail_event_dispatcher_start_and_fails_dispatch_email
+git commit -am "Trying to fix test"
+git commit -m "Trying to fix test"
+git switch RC-COINX-7090-add-label-to-duplicate-email
+git branch -D RC-COINX-7231-race-condition-wd
+cat nano ~/.config/fish/config.fish
+vvpytest mount/tests/usecases/transactions/test_confirm.py
+git pull origin RC-COINX-7231-race-condition-wd
+git pull RC-COINX-7231-race-condition-wd
+git switch RC-COINX-7231-race-condition-wd
+vvpytest mount/tests/adapters/gmail/test_gmail_event_dispatcher.pyddoff
+git commit -m "Move is_duplicate outside the method"
+git commit -m "Fix tests that handle exception case"
+black mount/tests/adapters/gmail/test_gmail_event_dispatcher.py
+git commit -am "Remove unused code"
+git commit -m "Fix comments"
+git commit -am "Fix test using wrong fixture"
+git commit -m "Fix test using wrong fixture"
+git commit -m "Add comment"
+git commit -m "Add test cases for gmail labels"
+black mount/tests/adapters/gmail/test_gmail_labels.py
+vvpytest mount/tests/adapters/gmail/test_gmail_labels.py::test_make_label_update_add_parse_fail_label_to_add_labels_ids_list
+vvpytest mount/tests/adapters/gmail/test_gmail_labels.py::/home/luiz.cezer/code/cashier-service/mount/tests/adapters/gmail/test_gmail_labels.py
+cd ~/code/chain-service/
+git commit -am "Fix some tests"
+git commit -m "Fix some tests"
+git commit -m "Change duplicated label order and fix tests"
+git commit -m "Adding test to GMailLabels"
+vvpytest mount/tests/adapters/gmail/test_gmail.py
+git branch -D RC-7063-part-II
+git commit -m "Remove unused variable"
+git commit -m "Add PR template"
+git switch -c RC-COINX-7063-part-II
+gpush RC-7063-part-II --force
+git reset --hard e35d6fda30bb8156324d349f96378e1659a25901
+git pull origin RC-7063-part-II
+gpush RC-7063-part-II
+black mount/tests/adapters/gmail/test_gmail_event_dispatcher.py mount/app/domain/e_transfer/credentials.py
+git add ,.
+git commit -m "Create a domain file to return etransfer/gmail credentials"
+git commit -m "Allo GMailContext to return true for highgarden_client and clean up code"
+git commit -m "Testing gmail/gmail_event_dispatcher.py start flow"
+cd
+git commit -m "A bunch of stuff to try to test this gmail integration"
+pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
+git commit -m "Rename parsed_status to parse_status"
+git switch -c RC-7063-part-II
+git commit -m "WIP: add testing"
+git commit -m "Add label is duplicate to email message"
+git diff mount/app/adapters/gmail/gmail.py mount/app/adapters/gmail/gmail_event_dispatcher.py
+git commit -m "Move auto_deposit email fixture to conftest"
+git add mount/tests/conftest.py mount/tests/usecases/test_interac_email_parser.py
+git commit -m "Add new label to identify duplicate email messages"
+git add mount/app/adapters/gmail/gmail.py
+docker-compose pull cashier-service
+git switch -c RC-COINX-7090-add-label-to-duplicate-email
+cd ~/code/admin-service/
+cd /home/luiz.cezer/code/comms-service/
+cd ~/code/comms-service/
+git branch  -D RC-COINX-7063
+gpush RC-COINX-7063
+git commit -am "Move fixture to top of the file"
+git commit -m "Move fixture to top of the file"
+vvpytest mount/tests/usecases/test_interac_email_parser.py::test_parse_success_auto_deposit_is_multipart_false
+gpush RC-COINX-7063 --force
+git commit -am "Remove dead code"
+black mount/tests/usecases/test_interac_email_parser.py
+git commit -m "Add test case for parse email with success"
+vvpytest mount/tests/usecases/test_interac_email_parser.py::test_parse_success_auto_deposit_is_multipart_true
+git checkout mount/app/usecases/interac_email_parser.py
+vvpytest mount/tests/usecases/test_interac_email_parser.py::test_parse_success_is_multipart_false
+vvpytest mount/tests/usecases/test_interac_email_parser.py::test_parse_with_success
+vvpytest mount/tests/usecases/test_interac_email_parser.py::test_parse_send
+pytho
+git commit -m "Add assert to parsed_status.success"
+git commit -am "Log transaction using each field and not asdict"
+git commit -am "Make subject variable as lower case"
+git commit -m "Adding logs and rename test scenario"
+git commit -m "Add test case for no payment header"
+n
+git commit -m "Add test case for ParseStatus.success"
+git commit -m "Add test case test_successful_parse_with_unknown_type"
+git commit -m "Add test cases for no amount and not secret"
+git commit -m "Add test_successful_parse_with_success"
+vvpytest mount/tests/usecases/test_interac_email_parser.py::test_successful_parse_with_success
+git commit -am "Add log to parse_status"
+git commit -m "Add log to parse_status"
+git commit -am "Import logger"
+git pull origin RC-COINX-7063
+git checkout RC-COINX-7063
+git branch -D RC-COINX-7063
+open kanban.html 
+cd ~/code/cashier-service/ 
+git branch -D RC-COINX-7012-add-more-data-to-withdrawal-created-email RC-COINX-6946-resend-withdrawal-code-many-times-add-logs RC-COINX-6946-resend-withdrawal-code-fix-memo
+marp
+npm install -g @marp-team/marp-cli
+npm install --save-dev @marp-team/marp-cli
+mv kanban/ ~/Documents/
+gpush RC-COINX-6946-resend-withdrawal-code-fix-memo
+git commit -am "Adding a message with notification to exception"
+vvpytest mount/tests/usecases/transactions/test_confirm.py::test_get_destination_memo
+vvpytest mount/tests/usecases/transactions/test_confirm.py::test_get_destination_memo_with_none_data_return_blank
+vvpytest mount/tests/usecases/transactions/test_confirm.py::test_get_destination_memo_with_null_data_return_blank
+vvpytest mount/tests/usecases/transactions/test_confirm.py::test_get_destination_memo_with_blank_data_return_blank
+vvpytest mount/tests/usecases/transactions/test_confirm.py::test_get_destination_memo_with_data_return_data
+vvpytest mount/tests/usecases/test_confirm.py::/home/luiz.cezer/code/cashier-service/mount/tests/usecases/transactions/test_confirm.py
+git switch -c RC-COINX-6946-resend-withdrawal-code-fix-memo
+git reset --hard f4d46f12
+git switch RC-COINX-7012-add-more-data-to-withdrawal-created-email
+git reset --hard f4d46f1217e79e8f6b90ff92ce234d3f751c4183
+gpush RC-COINX-7012-add-more-data-to-withdrawal-created-email
+git commit -m "Add _currency_id to fee and net_amount"
+gpush RC-COINX-7012-add-more-data-to-withdrawal-created-email --force
+gpush RC-COINX-7012-add-more-data-to-withdrawal-created-sendgrid-templates --force
+docker-compose run comms-service tests
+git commit -m "Merge with new tests"
+gpush RC-COINX-7012-add-more-data-to-withdrawal-created-sendgrid-templates
+git commit -m "Add seeds to update template_vars WITHDRAWAL_CREATED/CONFIRMED"
+git commit -am "Add seeds to update template_vars WITHDRAWAL_CREATED/CONFIRMED"
+docker-compose run comms-service seed-db-up
+docker-compose exec postgres psql -U postgres
+pipenv run alembic -c alembic.ini revision -m "update template_vars for WITHDRAWAL_CREATED sendgrid_templates table"
+git commit -m "Add test cases for template_vars with different fields"
+vvpytest mount/tests/usecases/test_notifications.py
+vvpytest mount/tests/usecases/test_notifications.py::test_validate_template_with_exception
+vvpytest mount/tests/usecases/test_notifications.py::test_validate_template_with_success
+git commit -am "Add withdrawal_fee_amount_currency_id and withdrawal_net_amount_currency_id"
+sudo dpkg -i google-chrome-stable_current_amd64.deb 
+git commit -m "Uses transaction#net_amount method"
+git commit -am "Add withdrawal_fee_amount and withdrawal_net_amount for withdrawal confirmed notification"
+git commit -m "Add withdrawal_fee_amount and withdrawal_net_amount for withdrawal confirmed notification"
+git branch -m RC-COINX-7012-add-more-data-to-withdrawal-created-sendgrid-templates
+git commit -m "Add suffix _amount to field"
+git branch -m RC-COINX-7012-add-more-data-to-withdrawal-created-email
+git checkout -b RC-COINX-7012-add-more-data-to-withdrawal-created-email
+ls ~/.atom/packages/
+ls ~/.atom/
+rm -rf ~/.vim/pack/kite/
+rm -rf Kite/
+rm -rf kite/
+cd share/
+cd ~/.local/
+rm -rf ~/.kite/
+ls ~/.kite/
+vvpytest test/usecases/transactions/test_confirm.py
+vvpytest usecases/transactions/test_confirm.py
+bash -c wget -q -O - https://linux.kite.com/dls/linux/current
+git switch -c RC-COINX-7012-add-more-data-to-withdrawal-confirm-email
+gpush RC-COINX-6946-resend-withdrawal-code-many-times-add-logs
+vvpytest mount/tests/usecases/transactions/test_deposit.py
+pipenv install --dev freezegun
+vvpytest usecases/transactions/test_deposit.py::test_credit_card_deposit_happy_path
+vvpytest mount/usecases/transactions/test_deposit.py::test_credit_card_deposit_happy_path
+gpush RC-COINX-6946-resend-withdrawal-code-many-times-add-logs --force
+git logs
+git reset --hard 4d6341409af351189ac0f244b49682440875d4df
+git log -p 72afef8b7c10fee92c16e331880a84d651e983f4
+git commit -am "OK"
+git commit -am "Change log messages"
+git commit -m "Change log messages"
+git commit -am "Use same idempotency_token when prepare notification"
+git pull origin RC-COINX-6946-resend-withdrawal-code-many-times-add-logs
+cd packages/
+cd ~/.atom/
+cd ...
+cd ~/.kite/
+git checkout RC-COINX-6946-resend-withdrawal-code-many-times-add-logs
+cat nano ~/.config/fish/config.fish | grep ghash
+gash
+ls ~/.kite/libraries/
+whereis kite
+git commit -am "More logs"
+git commit -am "Add logs and dict to objects"
+git commit -am "Change to use logger.debug"
+git reset --hard b7ecd8572decd276c4ea777ad6d692e3484141fa
+gpull RC-COINX-6946-resend-withdrawal-code-many-times-add-logs
+git commit -m "Change logs to be debug mode and use asdict"
+git reset --hard e29187693d5f9ce25940f48aa951b6bd707d4a66
+git commit -am "Add asdict on objects being sent to logs"
+git commit -m "Adding logs on confirmation code flow"
+git branch -m RC-COINX-6946-resend-withdrawal-code-many-times-add-logs
+cd ../public-api/
+atom . 
+git switch -c RC-COINX-6946-resend-withdrawal-code-many-times
+gpush RC-COINX-6946-allow-resend-confirmation-code --force
+git switch RC-COINX-6946-allow-resend-confirmation-code
+git branch -D RC-COINX-6946-allow-resend-confirmation-code
+cd comms-service/
+gpush RC-COINX-6946-allow-resend-confirmation-code
+git commit -am "Use WITHDRAWAL_CREATED as event to be checked on DB"
+git commit -am "Add test case for status skipped"
+ps aux | grep kite
+kill -9 32352
+kill -9 32360 
+pipenv update
+pipenv update cryptography 
+pipenv cryptography
+git reset --hard 2ae1482bfb6856010f38f923e4a517f44cc787c4
+cd huracan-performante/
+rm -rf community/
+git checkout RC-COINX-6946-allow-resend-confirmation-code
+git commit -m "Add test case for notifications usecase"
+git commit -am "ok"
+git push origin --delete COINX-6946-allow-resend-confirmation-code
+git branch -m RC-COINX-6946-allow-resend-confirmation-code
+gpush COINX-6946-allow-resend-confirmation-code --force
+gpush COINX-6946-allow-resend-confirmation-code
+git switch -c COINX-6946-allow-resend-confirmation-code
+docker-compose up comms-service
+ls /home/luiz.cezer/.local/bin/
+which pip3
+sudo apt-get purge postgresql-10
+sudo apt-get remove postgresql-10
+sudo -i -u postgres
+sudo systemctl restart postgresql
+sudo nano /etc/postgresql/10/main/pg_hba.conf
+mix ecto.create
+mix ecto.setup
+sudo systemctl status postgresql
+sudo apt install postgresql
+mix ecto.migrate
+mix phx.gen.context News Link links url:string description:text
+cd community/
+./run_unit_tests.sh 
+mix phx.new community --no-webpack --no-html
+mix help | grep phx.
+mix archive.install hex phx_new
+mix help | grep phx
+mix help
+git branch -D RC-COINX-6873-update-hot-wallet-balances-endpoint RC-COINX-6944-withdrawal-pool-endpoint RC-COINX-6988-refactor-withdrawal-simple
+git branch -D RC-COINX-6679-add-submit-withdrawal-worker RC-COINX-6731-add-chain-service-to-ibs-agera RC-COINX-6999-update-with-bittrex-configs
+gpush RC-COINX-6999-update-with-bittrex-configs
+git commit -m "Add ibs-bittrex-balances-qt-poller to workers/compose"
+git commit -m "Update docker-compose files with bittrex api keys"
+gpull; git switch -c RC-COINX-6999-update-with-bittrex-configs
+gpush RC-COINX-6992-allow-bittrex-poller-with-2-orgs
+git commit -am "Support diff keys for diff orgs"
+git commit -m "Support diff keys for diff orgs"
+gpush RC-COINX-6992-allow-bittrex-poller-with-2-orgs --force
+git switch -c RC-COINX-6992-allow-bittrex-poller-with-2-orgs
+docker-login; docker-compose pull balance-sheet
+docker-login; docker-compose pull balance-sheet-legder
+gpush RC-COINX-6944-withdrawal-pool-endpoint
+git commit -am "Rename endpoint to be part of /interal requests"
+git commit -m "Rename endpoint to be part of /interal requests"
+git pull origin RC-COINX-6944-withdrawal-pool-endpoint
+git checkout RC-COINX-6944-withdrawal-pool-endpoint
+gpull; git checkout RC-COINX-6988-refactor-withdrawal-simple
+git commit -am "Add test case when no admin_service_token is provided"
+black mount/app/adapters/http/v1/withdrawal.py mount/tests/adapters/http/v1/test_withdrawal_pool_balances.py
+git commit -m "Require admin auth to request the endpoint"
+git commit -am "Add doc #2"
+git commit -am "Add doc"
+black mount/tests/adapters/http/v1/test_withdrawal_pool_balances.py mount/app/adapters/http/v1/withdrawal.py
+git commit -m "Create withdrawal_pool_balances endpoint"
+git diff mount/app/adapters/http/v1/withdrawal.py
+git pull origin RC-COINX-6873-update-hot-wallet-balances-endpoint
+git switch -c RC-COINX-6944-withdrawal-pool-endpoint
+git switch RC-COINX-6873-update-hot-wallet-balances-endpoint
+git branch -D RC-COINX-6944-withdrawal-pool-endpoint
+git rebase RC-COINX-6873-update-hot-wallet-balances-endpoint
+git commit -am "Apply black format :lipstick:"
+black mount/app/usecases/balances.py mount/tests/usecases/test_balances.py
+git commit -m "Rename method to be explicit it only return withdrawal_pool ticker_balances"
+vvpytest mount/tests/usecases/test_balances.py
+gpull; git checkout RC-COINX-6873-update-hot-wallet-balances-endpoint
+git checkout RC-COINX-6873-update-hot-wallet-balances-endpoint
+docker-login; docker-compose pull chain-service
+git branch -D RC-COINX-6962-refactoing-cosigner-signin
+gpush RC-COINX-6962-refactoing-cosigner-signin
+git commit -am "Return false when withdrawal can not be signed"
+git commit -m "Return false when withdrawal can not be signed"
+git stash clean
+black mount/app/usecases/cosigner.py
+git switch -c RC-COINX-6962-refactoing-cosigner-signin
+git reset --hard c1012ab4d90da3feac69e0732aeabb853ec16d26
+git branch -D RC-COINX-6822-remove-hg2
+sudo apt purge mypaint
+sudo apt remove mypaint
+sudo apt install mypaint
+sudo apt purge krita
+sudo apt remove krita
+sudo apt install krita
+sudo apt-get purge pinta
+sudo apt-get remove pinta
+sudo apt install pinta
+git branch -D RC-COINX-6735-remove-calls-to-cashier-hot-wallet 
+git branch -D RC-COINX-6818-validator-executor
+gpush RC-COINX-6822-remove-hg2 --force
+gpull; git switch RC-COINX-6822-remove-hg2
+gpush RC-COINX-6818-validator-executor
+git branch  -D RC-COINX-6918-command-to-force-update-crypto-to-pending
+git commit -m "Remove skipped test with no assert being done"
+gpush RC-COINX-6918-command-to-force-update-crypto-to-pending
+git commit -am "Import status and asdict to build data to be published"
+doff; ./run_unit_tests.sh 
+git pull origin  RC-COINX-6918-command-to-force-update-crypto-to-pending
+git commit -am "Add await and fix typo"
+gpush RC-COINX-6818-validator-executor --force
+git reset --hard 7a82ec3305c13746c937773a95f8d10f199af337
+git commit -am "Remove skip flag from test"
+git commit -m "Remove skip flag from test"
+git commit -m "Removing @run_in_executor to allow tests to work properly"
+git dif
+git pull origin RC-COINX-6818-validator-executor
+gpull; git switch RC-COINX-6818-validator-executor
+git branch -D RC-COINX-6895-reject-invalid-amount-for-withdrawal
+gpush RC-COINX-6918-command-to-force-update-crypto-to-pending --force
+git commit -am "Build gateway_data based on ChainReposit record"
+git checkout mount/cmds/mark_crypto_withdrawal_as_rejected.py
+git diff mount/cmds/mark_crypto_withdrawal_as_rejected.py
+docker exec -it d084392491ec python cmds/mark_crypto_deposit_as_rejected.py
+docker exec -it d084392491ec python mount/cmds/mark_crypto_deposit_as_rejected.py
+docker-compose up kafka
+docker-compose up zookeeper
+docker exec -it b918c773aaa6 python mount/cmds/mark_crypto_deposit_as_rejected.py
+docker exec -it b918c773aaa6 pipenv run mount/cmds/mark_crypto_deposit_as_rejected.py
+pipenv run mount/cmds/mark_crypto_deposit_as_rejected.py
+git switch -c RC-COINX-6918-command-to-force-update-crypto-to-pending
+docker-login; docker-compose pull cashier-service
+git branch -D RC-COINX-6895-check-amount-validation
+gpull; git switch -c RC-COINX-6895-check-amount-validation
+gpull; git switch RC-COINX-6895-check-amount-validation
+cd ../cashier-service/
+git switch -c RC-COINX-6895-reject-invalid-amount-for-withdrawal
+git branch -D RC-COINX-6904-fix-cosigner-test
+rm -rf kafka_elixir_playground/
+cd kafka_elixir_playground/
+mix compile
+cd .
+mix new producer
+rm -rf producer/
+cd apps/producer/
+cd producer/
+cd kafka_elixir_playground/apps/
+mix new kafka_elixir_playground --umbrella
+cp -r ../../poller/ .
+cp ../../poller/ .
+git clone git@github.com:lccezinha/poller.git
+gpush RC-COINX-6802-show-address
+docker-compose exec -e NODE_ENV=test admin-service npm run test
+docker-compose up admin-service
+history | grep npm
+gpush RC-COINX-6904-fix-cosigner-test
+git checkout  mount/app/usecases/cosigner.py
+git diff mount/app/usecases/cosigner.py
+vvpytest mount/tests/usecases/test_cosigner.py::test_can_be_signed_valid_sweep_txn
+docker-compose run --rm --no-deps -e APP_ENV=unittest -e POSTGRES_DB_NAME=chain_dev_test chain-service pytest -vv tests/usecases/test_cosigner.py::test_can_be_signed_valid_sweep_txn
+docker-compose run --rm --no-deps -e APP_ENV=unittest -e POSTGRES_DB_NAME=chain_dev_test chain-service tests/usecases/test_cosigner.py::test_can_be_signed_valid_sweep_txn
+docker-compose run --rm --no-deps -e APP_ENV=unittest -e POSTGRES_DB_NAME=chain_dev_test chain-service mount/tests/usecases/test_cosigner.py::test_can_be_signed_valid_sweep_txn
+docker-compose run --rm --no-deps -e APP_ENV=unittest -e POSTGRES_DB_NAME=chain_dev_test chain-service tests mount/tests/usecases/test_cosigner.py::test_can_be_signed_valid_sweep_txn
+git switch -c RC-COINX-6904-fix-cosigner-test
+python3 -m http.server
+git checkout mount/test/graphql/schema/crypto-adjustment/index.spec.ts
+git diff mount/test/graphql/schema/crypto-adjustment/index.spec.ts
+d
+docker-compose up admin-frontend
+rm mount/uat-cashier.sql
+git checkout -b RC-COINX-6802-show-address
+docker exec -it 74f0d98f76f3 /bin/bash 
+docker-compose exec postgres psql -h localhost -d cashier_dev_test -U postgres
+docker-compose exec postgres psql -h localhost -d cashier_dev_test -U postgres -f uat-cashier.sql
+docker-compose exec postgres psql -h localhost -d cashier_dev_test -U postgres -f ./srv/root/uat-cashier.sql
+docker-compose exec postgres psql -h code_cashier-service -d cashier_dev_test -U postgres -f ./srv/root/uat-cashier.sql
+docker-compose exec postgres psql -d cashier_dev_test -U postgres -f ./srv/root/uat-cashier.sql
+docker-compose exec postgres psql -d cashier_dev_test -U  postgres
+docker-compose exec postgres psql -d cashier_dev_test -U postgres -f /srv/root/uat-cashier.sql
+docker-compose exec postgres psql -d cashier_dev_test -U postgres -f /svr/root/uat-cashier.sql
+docker-compose exec postgres psql -d cashier_dev_test -U postgres -f uat-cashier.sql
+docker-compose down cashier-service
+docker-compose exec postgres psql -d cashier_dev_test -U postgres -f mount/uat-cashier.sql
+cd cashier-service/
+cd ../agera/
+docker-compose exec postgres psql -d cashier_dev_test -U postgres -f /home/luiz.cezer/Downloads/uat-cashier.sql
+docker-compose exec postgres psql -U psql pg_dump cashier_dev_test > /home/luiz.cezer/Downloads/uat-cashier.sql
+docker-compose exec postgres psql -U pg_dump cashier_dev_test > /home/luiz.cezer/Downloads/uat-cashier.sql
+history | grep psql
+kill -9 12075
+ps aux | grep table
+docker-compose exec admin-service npm run db:seed:all
+docker-compose exec admin-service /scripts/start.sh accounts_indexer
+docker-compose pull elasticsearch
+npm start
+npm install
+rm -rf node_modules/
+sudo npm install -g
+nvm list
+nvm install 12.14.0
+node -v
+sudo npm start
+docker-compose up --build admin-service
+sudo npm run db:seed:all
+sudo npm run db:migrate
+sudo npm run db:create
+sudo npm install
+npm run db:migrate
+cd /home/luiz.cezer/code/admin-service/
+docker logs 477f8ffb781b
+docker logs 1e8e5e7ec197
+docker logs
+docker-compose pull admin-service
+docker network
+docker network prune 
+docker start
+docker help
+cd ../admin-service/
+docker-compose pull admin-frontend
+docker info
+docker stats -a
+docker stats
+cd public-api/
+git branch  -D RC-COINX-6866 RC-COINX-6822-remove-hg RC-COINX-6734-remove-hg-endpoints RC-COINX-6692-enable-mypy
+mix
+cd admin-service/
+cd ../chain-service/
+cd ../balance-sheet-ledger/
+git rev-parse --short HEAD
+git checkout RC-COINX-6866
+git branch  -D RC-COINX-6820-name-loggers
+gpush RC-COINX-6820-name-loggers
+git commit -am "Fix bunch of files to use named loggers"
+git commit -m "Fix bunch of files to use named loggers"
+./
+git diff mount/app/commons/logger/processors.py
+gpull; git switch RC-COINX-6822-remove-hg; doff; docker-login; docker-compose pull cashier-service
+git commit -m "WIP: set get_logger"
+git commit -m "Using named loggers into usecases"
+git commit -m "Using named loggers into commons"
+git commit -m "Using named loggers into adapters"
+git commit -m "Using named loggers into adapters/http"
+git commit -m "Using named loggers into adapters/http/v1"
+git commit -am "Import methods from logger"
+git switch -c RC-COINX-6820-name-loggers
+gpush RC-COINX-6734-remove-hg-endpoints
+git commit -am "Remove hot_wallet import"
+docker-compose exec cashier-service alembic -c /alembic.ini upgrade head
+echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
+docker-compose exec cashier-service alembic -c /alembic.ini upgrade head
+
+git pull origin RC-COINX-6734-remove-hg-endpoints
+git checkout RC-COINX-6734-remove-hg-endpoints
+gpush RC-COINX-6735-remove-calls-to-cashier-hot-wallet
+git commit -am "Put chain_service as source of hot wallets"
+git commit -m "Put chain_service as source of hot wallets"
+black mount/tests/adapters/test_chain_service.py
+black mount/app/adapters/chain_service.py
+git commit -m "Clean up some assets"
+git checkout RC-COINX-6735-remove-calls-to-cashier-hot-wallet
+git commit -am "Rename tests and use chain service exceptions"
+docker-compose up --no-deps balance-sheet-ledger
+docker-compose pull balance-sheet-ledger
+git switch -c RC-COINX-6735-remove-calls-to-cashier-hot-wallet
+git branch -D RC-COINX-6730-chain-adapter RC-COINX-6732-poller-using-chain-adapter
+git branch  -D RC-COINX-6808-debugging-vault-account-by-id RC-COINX-6808-log-to-debug RC-COINX-6808-remove-log
+gpush RC-COINX-6732-poller-using-chain-adapter
+git commit -am "Assert currency_id (UUID) as string on test" 
+git commit -m "Assert currency_id (UUID) as string on test" 
+git pull origin RC-COINX-6732-poller-using-chain-adapter
+git reset 622fe69b2e7cc87342e46fdc57a13f2eab916e49
+gpush RC-COINX-6732-poller-using-chain-adapter --force
+git commit -am "Covert UUID to str"
+git checkout RC-COINX-6732-poller-using-chain-adapter
+got s
+gpush RC-COINX-6808-remove-log
+git commit -am "Remove logger.debbug"
+git commit -m "Remove logger.debbug"
+git checkout -b RC-COINX-6808-remove-log
+pipenv run jupyter notebook
+cd ~/code/Jupiter/
+pipenv run jupyter
+jupyter
+pip install notebook
+pip install jupyterlab
+gpush RC-COINX-6808-debugging-vault-account-by-id
+git commit -m "Remove comment"
+git commit -am "Adding more logs :rage:"
+git commit -am "Trying to debug"
+git commit -m "Trying to debug"
+git switch -c RC-COINX-6808-debugging-vault-account-by-id
+gpush RC-COINX-6808-log-to-debug
+git commit -m "Adding logs"
+git switch -c RC-COINX-6808-log-to-debug
+git branch  -D RC-COINX-6808-ignore-not-available-currency RC-COINX-6808-fix-filter-to-ignore-currency
+gpush RC-COINX-6808-fix-filter-to-ignore-currency
+git commit -m "Remove unused if to replace the _TEST for an empty string"
+git commit -m "Filter asset_id with the TEST suffix"
+git checkout -b RC-COINX-6808-fix-filter-to-ignore-currency
+gpush RC-COINX-6808-ignore-not-available-currency --force
+git commit -am "Use filter to get available_assets"
+gpush RC-COINX-6808-ignore-not-available-currency
+git commit -am "Remove using dict.keys()"
+git commit -m "Fix test calling non existent method"
+git switch -c RC-COINX-6808-ignore-not-available-currency
+git branch  -D RC-COINX-6732-fix-master-tests RC-COINX-6732-fix-fireblocks-endpoint RC-6732-fix-fireblocks-endpoint
+git switch -c RC-COINX-6732-fix-master-tests
+gpush RC-COINX-6732-fix-fireblocks-endpoint --force
+git push origin --delete RC-6732-fix-fireblocks-endpoint
+gpush RC-COINX-6732-fix-fireblocks-endpoint
+git switch -c RC-COINX-6732-fix-fireblocks-endpoint
+gpush RC-6732-fix-fireblocks-endpoint
+git checkout -b RC-6732-fix-fireblocks-endpoint
+git commit -am "Add currency_service when starts the poller"
+git commit -m "Add currency_service when starts the poller"
+git log -p 6932103417b45a1e8e54d34ca13676cd1c80fff9
+git commit -am "Add test to check produced kakfa info"
+git commit -m "Add test to check produced kakfa info"
+git checkout mount/app/domain/third_party_balances.py
+git check mount/app/domain/third_party_balances.py
+git diff mount/app/domain/third_party_balances.py
+dpff
+docker-compose exec balance-sheet-ledger alembic -c alembic.ini upgrade head
+git commit -m "Import timestamp and add comment on org/region map"
+git commit -m "Fix exception messages"
+git add mount/app/commons/exceptions.py
+git commit -am "Remove unused import"
+git commit -m "Passing organization and region as argument to get_hot_wallet_balances"
+git add mount/app/adapters/chain_service.py mount/tests/adapters/test_chain_service.py
+git diff mount/app/adapters/chain_service.py mount/tests/adapters/test_chain_service.py
+git stash .
+git branch  -D RC-COINX-6732-fix-route-hot-wallet
+git commit -m "Add chain_service_url"
+git add mount/app/commons/settings.py
+git commit -m "Rename constant to HOT_WALLET_BALANCES"
+git diff mount/app/commons/exceptions.py
+git diff mount/app/commons/settings.py mount/app/commons/exceptions.py
+git commit -m "Fix typo from hot_wallets_balances to hot_wallet_balances"
+git add mount/tests/conftest.py mount/app/adapters/chain_service.py mount/tests/adapters/test_chain_service.py
+git diff mount/tests/conftest.py mount/app/adapters/chain_service.py mount/tests/adapters/test_chain_service.py
+git push origin --delete RC-6732-fix-route-hot-wallet
+gpush RC-COINX-6732-fix-route-hot-wallet
+git commit -am "Typo fix"
+git branch -m RC-COINX-6732-fix-route-hot-wallet
+gpush RC-6732-fix-route-hot-wallet
+git diff mount/app/adapters/http/v1/hot_wallet_balances.py mount/tests/adapters/http/v1/test_hot_wallet_balances.py
+git checkout -b RC-6732-fix-route-hot-wallet
+git commit -m "Using chain_service to get_hot_wallet_balances"
+docker-compose exec --no-deps balance-sheet-ledger ./scripts/run_unit_tests.local.sh
+docker-compose --no-deps exec balance-sheet-ledger  ./scripts/run_unit_tests.local.sh
+git commit -am "Rename from hot_wallets to hot_wallet"
+git switch -c RC-COINX-6732-poller-using-chain-adapter
+docker-compose up chain-service --no-deps
+gpush RC-COINX-6730-chain-adapter
+git commit -am "Change exception message"
+git commit -m "Change exception message"
+git commit -am "Fix typing"
+git push RC-COINX-6730-chain-adapter
+gpush RC-COINX-6779-fix-mapping
+git branch  -D RC-COINX-6779-fix-mapping
+docker-compose exec balance-sheet-ledger ./scripts/run_unit_tests.local.sh 
+docker-compose run balance-sheet-ledger db-bootstrap
+git commit -am "Return ticker with no need to add sufix _TEST"
+git commit -m "Return ticker with no need to add sufix _TEST"
+git commit -m "WIP: testing"
+docker-compose build balance-sheet-ledger
+pipenv install --dev
+cd mount/tests/
+ls ~/code/cashier-service/mount/tests/adapters/
+ls ~/code/cashier-service/mount/app/adapters/
+git checkout RC-COINX-6730-chain-adapter
+git commit -m "Improve mapping and add unit tests"
+git switch -c RC-COINX-6779-fix-mapping
+git branch  -D RC-COINX-6750-get-vault-accounts-endpoint
+gpush RC-COINX-6731-add-chain-service-to-ibs-agera
+git commit -m "Add CHAIN_SERVICE to balance-sheet-ledger"
+git switch -c RC-COINX-6731-add-chain-service-to-ibs-agera
+gpush RC-COINX-6750-get-vault-accounts-endpoint
+git commit -m "Rename package to hot-wallets-balances"
+git commit -m "Rename endpoint to hot-wallets"
+gpush RC-COINX-6750-get-vault-accounts-endpoint --force
+black mount/app/adapters/http/v1/vault_balance.py
+vvpytest mount/tests/adapters/http/v1/test_vault_balances.py
+pipenv run pytest mount/tests/adapters/http/v1/test_vault_balances.py
+cat ~/.config/fish/config.fish 
+git checkout mount/tests/usecases/test_vault_balance.py mount/app/usecases/vault_balance.py
+git diff mount/tests/usecases/test_vault_balance.py mount/app/usecases/vault_balance.py
+sudo apt install tableplus
+sudo add-apt-repository "deb [arch=amd64] https://deb.tableplus.com/debian tableplus main"
+wget -O - -q http://deb.tableplus.com/apt.tableplus.com.gpg.key | sudo apt-key add - 
+git checkout RC-COINX-6750-get-vault-accounts-endpoint
+git branch -D RC-COINX-6753-get-vault-accounts-by-org-vault_id
+git switch -c RC-COINX-6750-get-vault-accounts-endpoint
+git branch  -D RC-COINX-6750-add-vault-balances-endpoint
+gpush RC-COINX-6753-get-vault-accounts-by-org-vault_id
+gpush RC-COINX-6753-get-vault-accounts-by-org-vault_id --force
+git commit -am "Rename method to get_organization_vault_by_organization_name"
+git commit -m "Use region as part of the query for org_vault"
+git branch -m RC-COINX-6753-get-vault-accounts-by-org-vault_id
+git switch RC-COINX-6750-get-all-balances-from-fireblocks
+git checkout RC-COINX-6753-get-vault-accounts-by-org-vault_id
+git checkout RC-COINX-6750-add-vault-balances-endpoint
+git commit -am "Add comment on code"
+git commit -m "Add comment on code"
+git commit -m "Fix test adding fixtures"
+git add mount/tests/usecases/test_organization_vaults.py
+git diff mount/tests/usecases/test_organization_vaults.py
+git commit -m "Add usecase to organization_vault to return org by name"
+git add mount/app/usecases/organization_vault.py mount/tests/usecases/test_organization_vaults.py
+git diff mount/app/usecases/organization_vault.py mount/tests/usecases/test_organization_vaults.py
+git commit -m "Fix method name with wrong prefix"
+git add mount/app/domain/organization_vault.py mount/tests/domain/test_organization_vault.py
+git diff mount/app/domain/organization_vault.py mount/tests/domain/test_organization_vault.py
+git checkout RC-COINX-6750-get-all-balances-from-fireblocks
+git checkout mount/app/domain/organization_vault.py
+git diff mount/app/domain/organization_vault.py
+git commit -m "Remove suffix _by_vault"
+git commit -m "Black formatting :lipstick:"
+git switch -c RC-COINX-6750-get-all-balances-from-fireblocks
+git switch -c RC-COINX-6750-add-vault-balances-endpoint
+git branch -D RC-COINX-6750-add-vault-balances-endpoint
+cd ~/code/balance-sheet-ledger/
+
+rm mount/tests/adapters/http/v1/test_vault_balance.py
+git checkout mount/app/adapters/http/v1/vault_balance.py
+vvpytest mount/tests/adapters/http/v1/test_vault_balance.py
+git commit -am "Rename router to vault-balances"
+git commit -m "Rename router to vault-balances"
+rm mount/tests/adapters/http/v1/test_vault_balances.py
+git reset --hard 71531d03f3229d58fe7b9866c284efdf16b91af6
+git commit -m "Rename file and route vault_balance to vault_balances"
+erl
+asdf global erlang 22.3.4.5
+asdf install erlang 22.3.4.5
+asdf uninstall erlang 23.1
+git branch  -D RC-COINX-6718-fix-avro-schema-key RC-COINX-6718 RC-COINX-6714-add-missing-import-dbsession RC-COINX-6696-remove-customer-refid
+docker-compose -f workers/docker-compose-workers.yml -f docker-compose.yml up --build chain-service_withdraw-worker
+docker-compose -f workers/docker-compose-workers.yml -f docker-compose.yml up --build chain-service_withdraw-worker cashier-service_withdrawal-approver  chain-service_submit-withdrawal-processor
+docker-compose -f workers/docker-compose-workers.yml -f docker-compose.yml up --build chain-service
+docker rmi -f ebc4d3240fa6 53b8a628cf4f f70578d3aa45
+git pull origin RC-COINX-6718-fix-avro-schema-key
+asdf install erlang 23.1
+asdf local erlang 23.1
+asdf local elixir 1.10.3
+asdf list-all erlang
+asdf plugin add erlang
+asdf plugin-add erlang
+elixir -v
+asdf list elixir
+asdf plugin list
+asdf install elixir 1.10.3
+asdf plugin add elixir
+asdf plugins list
+mkdir -p ~/.config/fish/completions; and cp ~/.asdf/completions/asdf.fish ~/.config/fish/completions
+git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.8.0
+cd /home/luiz.cezer/code/chain-service/
+git co mount/app/adapters/kafka/avro.py
+git diff mount/app/adapters/kafka/avro.py
+black mount/tests/adapters/kafka/test_avro.py
+curl -sS https://download.spotify.com/debian/pubkey_0D811D58.gpg | sudo apt-key add - 
+git reset --hard 33bb7a355e58d52ddb61f8b654e81109fc7a4b6c
+gpush RC-COINX-6718-fix-avro-schema-key --force
+gpush RC-COINX-6718-fix-avro-schema-key
+vvpytest mount/tests/adapters/kafka/test_avro.py
+doff; 
+git switch -c RC-COINX-6718-fix-avro-schema-key
+gpush RC-COINX-6718
+vvpytest mount/tests/usecases/test_withdrawals.py
+vvpytest /mount/tests/usecases/test_withdrawals.py
+aws config
+aws help
+aws
+history | grep aws
+cat credentials 
+cat config
+cat ~/.bash_profile
+echo $AWS_SECRET_ACCESS_KEY
+echo AWS_ACCESS_KEY_ID
+echo $AWS_ACCESS_KEY_ID
+cat ~/.bashrc
+git switch RC-COINX-6718
+pytest
+python3 run.py
+gpush --force master
+git commit --ame
+git commit -am "Fix readme"
+gpush master
+git commit -m "Calculate quotation with amount, updated readme and run.py"
+black .
+git checkout RC-COINX-6696-remove-customer-refid
+git commit -m "Add AwesomeAPI"
+black lib/quotation/
+black tests/
+history | grep docker
+git commit -am "Remove unsed import"
+gpush RC-COINX-6714-add-missing-import-dbsession
+git commit -am "Add missing import"
+git switch -c RC-COINX-6714-add-missing-import-dbsession
+gpush RC-COINX-6679-add-submit-withdrawal-worker --force
+gpush RC-COINX-6679-add-submit-withdrawal-worker --f
+gpush RC-COINX-6679-add-submit-withdrawal-worker
+git commit -am "Rename processor name to match entrypoint name"
+git reset --hard 5ba3d4df8effaaaf3835c614ac9723533a327b1a
+git ss
+git st
+git checkout RC-COINX-6679-add-submit-withdrawal-worker
+git commit -m "Add RateAPI class"
+pip install responses
+curl "https://api.ratesapi.io/api/latest?base=USD&symbols=BRL"
+pytest -vv
+pytest --v
+pip install pytest-mock
+curl "https://api.ratesapi.io/api/latest?base=&symbols=BRL"
+pip install -U requests-mock
+history | grep rate
+git commit -m "WIP:"
+pytest -v
+pip install -U requests
+black /lib/
+blank
+git commit -m "Add README.md"
+curl "https://api.ratesapi.io/api/latest?base=USD"
+curl https://api.ratesapi.io/api/latest?base=USD
+curl https://api.ratesapi.io/api/latest
+git commit -m "Basic get() method"
+git commit -m "Avoid equal currencies"
+git commit -m "Add private method __check_validations"
+git commit -m "Validate available_currencies"
+git commit -m "Remove pycache"
+git rm lib/quotation/__pycache__/__init__.cpython-36.pyc lib/quotation/__pycache__/quotation.cpython-36.pyc tests/__pycache__/__init__.cpython-36.pyc tests/__pycache__/test_quotation.cpython-36-pytest-6.2.1.pyc
+git commit -am "Ignore pychace on commit"
+black lib/quotation/quotation.py 
+git commit -m "Add tests to assign variable values"
+black lib/quotation/quotation.py
+git remote add origin git@github.com:lccezinha/currency-quotation.git
+git commit -m "Setup pytest"
+git branch  -D RC-COINX-6691-avoid-multiple-messages
+pip install -U pytest
+git commit -am "Basic setup"
+git init .
+mv currency-quotations/ currency-quotation/
+mv . currency-quotation
+touch __init.py__
+cd quotations/
+touch __init.py__ > quotations/
+mkdir quotations
+cd currency-quotations/
+mkdir currency-quotations
+gpush RC-COINX-6691-avoid-multiple-messages
+git commit -am "Rename metric name"
+black mount/app/commons/hash_generator.py
+git commit -m "Black fix format files"
+black mount/tests/commons/idempotency_tokens/
+black mount/app/commons/idempotency_tokens/
+black mount/app/commons/idempotency_tokens/worker_idempotency.py
+black mount/app/commons/idempotency_tokens/idempotency_tokens.py
+pip install black
+git commit -m "Fix import for idempotency_tokens package"
+vvpytest mount/tests/commons/idempotency_tokens/test_idempotency_tokens.py
+git commit -am "Fix import"
+git add .; git cm
+git cm
+git commit -m "Add domain/worker_idempotency and usecases/idempotency_tokens"
+git commit -m "Add table workes_idempotency"
+git checkout app/workers/submit_withdrawal.py
+pipenv run alembic -c alembic.ini revision -m "create workers_idempotency table"
+git switch -c RC-COINX-6691-avoid-multiple-messages
+git switch RC-COINX-6691-avoid-multiple-messages
+git switch RC-COINX-6692-enable-mypy
+curl -X DELETE http://localhost:8081/subjects/chain_service_local_withdrawal_request_event-value
+curl -X DELETE http://localhost:8081/subjects/Kafka-value
+curl http://localhost:8081/subjects/chain_service_local_withdrawal_request_event-value/versions/1
+docker-compose exec kafka /usr/bin/kafka-topics --zookeeper zookeeper:32181 --topic chain_service_local_withdrawal_request --describe
+git branch  -D RC-COINX-6679-worker-to-retry-withdrawal-events adjusts-pr-template
+git branch  -D RC-COINX-6679-add-submit-withdrawal-worker
+git commit -m "Add submit_withdrwal_processo to compose workers"
+git switch -c RC-COINX-6679-add-submit-withdrawal-worker
+cd agera/
+gpush RC-COINX-6679-worker-to-retry-withdrawal-events
+git commit -m "Add submit_withdrawal_processor to start.sh"
+gpush RC-COINX-6679-worker-to-retry-withdrawal-events --force
+git cm -m "Fix rebase conflict"
+git rebase master
+vvpytest mount/tests/usecases/test_submit_withdrawal.py
+git checkout RC-COINX-6679-worker-to-retry-withdrawal-events
+git push origin adjusts-pr-template --force
+git switch adjusts-pr-template
+gpush adjusts-pr-template
+git commit -m "Improve PR template"
+git switch -c adjusts-pr-template
+git rebase -i HEAD~1
+git co mount/app/workers/withdrawal.py
+git diff mount/app/workers/withdrawal.py
+git checkout  mount/app/workers/withdrawal.py
+git commit -am "Small adjust to keep same pattern and other workers"
+git commit -m "Small adjust to keep same pattern and other workers"
+git switch -c RC-COINX-6679-worker-to-retry-withdrawal-events
+git branch -D RC-COINX-6678-add-event-to-retry-topic
+gpush RC-COINX-6678-add-event-to-retry-topic
+git commit -m "Populate organization and region in withdrawals use case"
+git commit -m "Map app_org and app_region"
+git add mount/tests/usecases/test_submit_withdrawal.py
+git diff mount/tests/usecases/test_submit_withdrawal.py
+vvpytest mount/usecases/test_submit_withdrawal.py
+git commit -m "Allow WithdrawalState to populate/read organization and region fields"
+git add mount/tests/domain/test_withdrawal_state.py mount/app/domain/withdrawal_state.py
+git mount/tests/domain/test_withdrawal_state.py mount/app/domain/withdrawal_state.py
+vvpytest mount/tests/domain/test_withdrawal_state.py
+pipenv run alembic -c alembic.ini revision -m "adding organization and region to withdrawal_state table"
+git commit -m "Rename ticker to ticker_id in avro schema"
+git co mount/app/domain/withdrawal_state.py
+git diff mount/app/domain/withdrawal_state.py
+history | grep pip
+pipenv run pytest mount/tests/usecases/test_withdrawals.py -vv
+pipenv run pytest mount/tests/usecases/test_withdrawals.py -v
+pipenv run pytest mount/tests/usecases/test_withdrawals.py
+pipenv run pytest mount/tests/usecases/test_can_be_signed.py
+git switch -c RC-COINX-6678-add-event-to-retry-topic
+git branch  -D RC-COINX-6677-retry-flow-code-improvs
+git push origin RC-COINX-6677-retry-flow-code-improvs --force
+git push origin RC-COINX-6677-retry-flow-code-improvs
+git push origin
+git push origin --force
+git co RC-COINX-6677-retry-flow-code-improvs
+git branch -D RC-COINX-6677-handle-retry-events
+git push origin --delete RC-COINX-6677-handle-retry-events
+gpush RC-COINX-6677-retry-flow-code-improvs
+git cherry-pick 1065037df2ddf385af09bbaf99c609920a4bbc45
+git cherry-pick a0b99b88e717f2bf8d95acdcc5263a94cd4e2d37
+git cherry-pick f232ec061b5857ab4e28111c11efcd27a02a6cd8
+git cherry-pick 
+git log RC-COINX-6677-handle-retry-events
+git branch -D RC-COINX-6367-add-more-logs RC-COINX-6680
+git switch -c RC-COINX-6677-retry-flow-code-improvs
+gpush RC-COINX-6677-handle-retry-events
+git commit -m "Create the recoverable_errors list"
+git diff mount/app/usecases/withdrawals.py
+sudo kite-updater.service status
+sudo service kite-updater.service
+git switch -c RC-COINX-6677-handle-retry-events
+curl http://localhost:8081/subjects/chain_service_local_withdrawal_request_event-key/versions/1
+./migrate.sh
+./migrate
+./migrate.sh 
+./scripts/migrate.sh 
+./scripts/db-bootstrap.sh 
+git switch RC-COINX-6680
+git checkout RC-COINX-6367-add-more-logs
+docker login
+git checkout RC-COINX-6680
+cd balance-service/
+~/code/
+git branch  -D RC-COINX-6661-remove-double-underline-on-tests
+python dog.py 
+python async.py
+cd python-playground/
+gpush RC-COINX-6661-remove-double-underline-on-tests
+docker-compose run --rm --no-deps -e APP_ENV=unittest -e POSTGRES_DB_NAME=chain_dev_test tests/usecases/test_can_be_signed.py
+docker-compose run --rm --no-deps -e APP_ENV=unittest -e POSTGRES_DB_NAME=chain_dev_test mount/tests/usecases/test_can_be_signed.py
+python3 unittest mount/tests/usecases/test_can_be_signed.py
+git commit -m "Remove extra _ from adapter test"
+git commit -m "Remove extra _ from domain test"
+git add mount/tests/domain/test_sweep_transaction.py
+git commit -m "Remove extra _ from usecases tests"
+git add mount/tests/usecases/
+git switch -c RC-COINX-6661-remove-double-underline-on-tests
+git br
+git br -D test
+git switch -c test
+cd chain-service/
+sudo apt-get install -y git
+sudo add-apt-repository -y ppa:git-core/ppa
+rm -rf git/
+git clone https://github.com/git/git
+git version
+nvm
+ls mount/
+ls /home/luiz.cezer/.local/share/virtualenvs/chain-service-IoUoIHXI/bin/
+ls /home/luiz.cezer/.local/share/virtualenvs/chain-service-IoUoIHXI
+which docker-compose
+ls /home/luiz.cezer/.local/bin
+which docker
+pip3 install docker-compose
+sudo apt-get remove docker-compose
+docker-compose help
+which docker-compose 
+which python3 
+sudo apt-get install docker-compose
+pip3 install pipenv
+sudo unlink /usr/local/bin/python3
+unlink /usr/local/bin/python3
+sudo mv /usr/local/bin/pip3 /usr/local/bin/pip3-old
+sudo mv /usr/local/bin/python3.9 /usr/local/bin/python3.9-old
+mv /usr/local/bin/python3.9 /usr/local/bin/python3.9-old
+which pip
+sudo apt-get remove --purge python3
+sudo apt-get remove --purge python3.9
+ls -l /usr/local/bin/ 
+ls /usr/local/bin/
+ls /usr/local/
+sudo rm -rf /opt/
+rm -rf /opt/
+cat Makefile
+make uninstall
+cd /usr/opt/
+ls /usr/opt/
+history | grep Python
+pip3 install --upgrade pip
+pip3 install docker-compose --force --upgrade
+pip3 install --upgrade pip --trusted-host pypi.org --trusted-host files.pythonhosted.org
+pip3 install --upgrade pip --trusted-host pypi.org --trusted-host files.pythonhosted.org
+
+sudo apt-get install build-essential checkinstall libreadline-gplv2-dev libncursesw5-dev libssl-dev libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev
+pip3 install --trusted-host files.pythonhosted.org --trusted-host pypi.org --trusted-host pypi.python.org oauthlib -vvv
+dpkg-query -l | grep openssl
+sudo apt-get remove python-openssl
+pip3 install --trusted-host pypi.python.org
+pip3 install -U docker-compose
+docker-compose version
+docker-compose
+docker version
+docker-compose --help
+docker-compose 
+docker-compose --version
+sudo apt-get install  openssl-devel
+sudo apt-get install  openssl-dev
+sudo apt-get install python3-dev
+sudo apt-get install python3-devel
+sudo apt-get install python3-pip
+sudo apt-get remove python-pip
+pip install pipenv
+sudo apt-get install python-pip
+apt-get install python-pip
+apt-get install pip
+rm -rf ~/docker/coinsquare/
+git clone git@github.com:coinsquarex/chain-service.git
+./agera/scripts/gitsync
+ln -s agera/docker-compose.yml 
+ls -s agera/docker-compose.yml 
+git clone git@github.com:coinsquarex/agera.git
+cd ~/docker/coinsquare/
+cat ~/.aws/credentials
+nano ~/.aws/config 
+touch ~/.aws/config
+sudo ~/.aws/config
+go version
+aws --region us-east-1 ecr get-login-password | docker login --username AWS --password-stdin 623494789560.dkr.ecr.us-east-1.amazonaws.com
+aws ecr get-login --no-include-email --region us-east-1
+aws configure
+cd coinsquare/
+git config --global alias.st status
+git config --global alias.ci commit
+git config --global alias.br branch
+git config --global alias.co checkout
+git config --list --show-origin
+sudo nano ~/.gitconfig 
+git config --alias s status
+history | grep git
+git --help
+git alias s status
+rm docker-compose.yml 
+ln -s agera/docker-compose.yml
+git config  --list
+su
+git config
+cd docker/coinsquare/chain-service/
+ls docker/coinsquare/
+ls docker/
+omf install nvm
+omf remove fish-nvm
+omf install https://github.com/edc/bass
+omf install https://github.com/fabioantunes/fish-nvm
+node --version
+node
+node version
+sudo atom ~/.config/fish/config.fish
+ssh-add
+python3 ~/code/python-playground/operators.py 
+python ~/code/python-playground/variables.py 
+python ~/code/python-playground/data_types.py 
+python3 ~/code/python-playground/data_types.py 
+python3 ~/code/python-playground/hello_world.py 
+mkdir python-playground
+sudo update-alternatives --config python
+sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.7 2
+sudo update-alternatives --install /usr/bin/python python /usr/local/bin/python3.9 1
+sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.9.1 1
+ls /usr/bin/ | grep python
+which python3.7
+sudo apt-get install python3.7
+apt-cache search phyton3.7
+apt search phyton3.7
+sudo apt search phyton3.7
+sudo apt-cache search phyton3.7
+sudo apt-cache search phyton3
+history | grep python
+history
+ls /usr/bin/python
+ls /usr/bin/
+sudo mv ~/Downloads/Python-3.9.1/ /usr/opt
+ssh-keygen -t rsa -b 4096 -C "lccezinha@gmail.com"
+
+mkdir coinsquare
+cd docker/
+mkdir docker
+mkdir docker/coinsquare
+go env
+exot
+go version 
+go
+cd local/
+cd /usr/
+git config --global user.email "lccezinha@gmail.com"
+git config --global user.name "Luiz Cezer"
+omf install theme
+omf install theme eclm
+omf theme install eclm
+python -v
+sudo make install
+sudo apt-get install zlib1g-dev
+make install
+make
+./configure 
+sudo apt install libc6-dev
+sudo apt-get install nodejs
+For LTS R
+curl -sL https://deb.nodesource.com/setup_14.x | sudo bash -
+awssudo apt-get install curl python-software-properties software-properties-common
+sudo add-apt-repository ppa:jonathonf/python-3.9.1
+sudo add-apt-repository ppa:jonathonf/python-3.9
+cat config.log
+sudo ./configure
+./configure
+cd Python-3.9.1/
+tar -xvf Python-3.9.1.tar.xz 
+sudo apt-get install awscli
+export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
+export GOPATH=$HOME/code
+mkdir code
+export GOROOT=/usr/local/go 
+sudo mv go /usr/local/
+mv go /usr/local/
+tar -xvf go1.15.2.linux-amd64.tar.gz
+mv go1.15.2.linux-amd64.tar.gz Downloads/
+wget https://dl.google.com/go/go1.15.2.linux-amd64.tar.gz
+docker 
+sudo usermod -aG docker $USER
+sudo apt-get -y install docker-ce docker-compose
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+sudo apt-get -y install apt-transport-https ca-certificates curl software-properties-common
+sudo apt-get remove docker docker-engine docker.io containerd runc
+sudo apt-key fingerprint 0EBFCD88
+sudo apt-get install git
+apt-get install git
