@@ -4,12 +4,12 @@ from prometheus_client import start_http_server, Counter
 hostName = "localhost"
 serverPort = 8080
 metricsPort = 8081
-requestCounter = Counter("app_request_count", "total app http requests count")
+requestCounter = Counter("app_request_count", "total app http requests count", ["app_name", "endpoint", "xunda"])
 
 
 class MyServer(BaseHTTPRequestHandler):
     def do_GET(self):
-        requestCounter.inc()
+        requestCounter.labels("my python app", self.path, 1).inc()
         self.send_response(200)
         self.send_header("Content-type", "text/html")
         self.end_headers()
