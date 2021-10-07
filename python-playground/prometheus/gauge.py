@@ -9,8 +9,9 @@ requestInProgress = Gauge("app_requests_in_progress", "number of requests in pro
 
 
 class MyServer(BaseHTTPRequestHandler):
+
+    @requestInProgress.track_inprogress
     def do_GET(self):
-        requestInProgress.inc()
         
         self.send_response(200)
         self.send_header("Content-type", "text/html")
@@ -24,7 +25,6 @@ class MyServer(BaseHTTPRequestHandler):
         self.wfile.write(bytes("</body></html>", "utf-8"))
 
         time.sleep(5)
-        requestInProgress.dec()
 
 
 if __name__ == "__main__":
