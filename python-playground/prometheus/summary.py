@@ -1,18 +1,17 @@
 from http.server import BaseHTTPRequestHandler, HTTPServer
-from prometheus_client import start_http_server, Gauge
+from prometheus_client import start_http_server, Summary
 import time
 
 host_name = "localhost"
 server_port = 8080
 metrics_port = 8081
-request_is_progress = Gauge("app_requests_in_progress", "number of requests in progress")
-
+request_response_summary = Summary("app_response_latency_seconds", "Response latency")
 
 class MyServer(BaseHTTPRequestHandler):
 
-    @request_is_progress.track_inprogress
+    @request_response_summary.time()
     def do_GET(self):
-        
+        # start_time = time.time()
         self.send_response(200)
         self.send_header("Content-type", "text/html")
         self.end_headers()
@@ -23,8 +22,8 @@ class MyServer(BaseHTTPRequestHandler):
         self.wfile.write(bytes("<body>", "utf-8"))
         self.wfile.write(bytes("<p>This is an example web server.</p>", "utf-8"))
         self.wfile.write(bytes("</body></html>", "utf-8"))
-
-        time.sleep(5)
+        # time_taken = time.time() - start_time
+        # request_response_summary.observe(time_taken)
 
 
 if __name__ == "__main__":

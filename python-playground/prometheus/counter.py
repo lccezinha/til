@@ -1,15 +1,15 @@
 from http.server import BaseHTTPRequestHandler, HTTPServer
 from prometheus_client import start_http_server, Counter
 
-hostName = "localhost"
-serverPort = 8080
-metricsPort = 8081
-requestCounter = Counter("app_request_count", "total app http requests count", ["app_name", "endpoint"])
+host_name = "localhost"
+server_port = 8080
+metrics_port = 8081
+request_counter = Counter("app_request_count", "total app http requests count", ["app_name", "endpoint"])
 
 
 class MyServer(BaseHTTPRequestHandler):
     def do_GET(self):
-        requestCounter.labels("my python app", self.path).inc()
+        request_counter.labels("my python app", self.path).inc()
         self.send_response(200)
         self.send_header("Content-type", "text/html")
         self.end_headers()
@@ -23,11 +23,11 @@ class MyServer(BaseHTTPRequestHandler):
 
 
 if __name__ == "__main__":
-    webServer = HTTPServer((hostName, serverPort), MyServer)
-    print("Server started http://%s:%s" % (hostName, serverPort))
+    webServer = HTTPServer((host_name, server_port), MyServer)
+    print("Server started http://%s:%s" % (host_name, server_port))
 
     try:
-        start_http_server(metricsPort)
+        start_http_server(metrics_port)
         webServer.serve_forever()
     except KeyboardInterrupt:
         pass
